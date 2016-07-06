@@ -1,11 +1,35 @@
 <html>
 <head>
-<title>TT</title>
-<link href="/static/css/dblog.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <title>TT</title>
+  <link href="/static/css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="/static/css/blog.css" rel="stylesheet" type="text/css" />
 </head>
-      <body>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="#">TT's Cyberspace</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">github</a></li>
+                <li><a href="#">吐槽</a></li>
+            </ul>
+        </nav>
+        <div id="banner">
+            <div class="inner">
+                <h1>TT的赛博空间</h1>
+                <p class="sub-heading">my world is rising and you should obey</p>
+                <button>点我</button>
+                <div class="more">
+                    更多
+                </div>
+            </div>
+        </div>
+    </header>
+    <content>
         <h1>测试测试测试！</h1>
         <img src="/static/images/1.jpg" width="20%" height="20%">
         {% block content %}{% endblock %}
-      </body>
+    </content>
+</body>
 </html>
