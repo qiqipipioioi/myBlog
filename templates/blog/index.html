@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% for article in article_list %}
+      <li style="margin-left:10px">
+        <a href="{% url 'blog:detail' article.pk %}">{{ article.title }}</a>
+      </li>
+    {% endfor%}
+  <li class="cat-item">
+    {% for category in category_list %}
+      <a href="{% url 'blog:category' category.pk %}">{{ category.name }}</a>
+    {% endfor %}
+  </li>
+{% endblock %}
