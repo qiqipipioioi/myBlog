@@ -6,10 +6,11 @@
   <link href="/static/css/blog.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+  <div class="main-wrapper">
     <header>
         <nav>
+            <div class="logo"><a href="#">TT's Cyberspace</a></div>
             <ul>
-                <li class="logo"><a href="#">TT's Cyberspace</a></li>
                 <li><a href="#">blog</a></li>
                 <li><a href="#">github</a></li>
                 <li><a href="#">吐槽</a></li>
@@ -26,10 +27,100 @@
             </div>
         </div>
     </header>
-    <content>
-        <h1>测试测试测试！</h1>
-        <img src="/static/images/1.jpg" width="20%" height="20%">
-        {% block content %}{% endblock %}
-    </content>
+    <div class="content">
+        <section class="green-section">
+            <div class="wrapper">
+                <div>
+                    <h2>一个标题</h2>
+                    <div class="hr"></div>
+                    <p class="sub-heading">just a test for one title</p>
+                </div>
+                <div class="icon-group">
+                    <span class="icon">item1</span>
+                    <span class="icon">item2</span>
+                    <span class="icon">item3</span>
+                </div>
+            </div>
+        </section>
+        <section class="gray-section">
+            <div class="article-preview">
+                <div class="img-section">
+                    <img src="/static/images/fa.jpg" alt="">
+                </div>
+                <div class="text-section">
+                    <h2>标题2</h2>
+                    <div class="sub-heading">
+                        副标题2
+                    </div>
+                    <p>其实你不识字</p>
+                </div>
+            </div>
+            <div class="article-preview">
+                <div class="text-section">
+                    <h2>标题3</h2>
+                    <div class="sub-heading">
+                        副标题3
+                    </div>
+                    <p>其实我也不识字</p>
+                </div>
+                <div class="img-section">
+                    <img src="/static/images/fa.jpg" alt="">
+                </div>
+            </div>
+            <div class="article-preview">
+                <div class="img-section">
+                    <img src="/static/images/fa.jpg" alt="">
+                </div>
+                <div class="text-section">
+                    <h2>标题4</h2>
+                    <div class="sub-heading">
+                        副标题4
+                    </div>
+                    <p>其实你不识字</p>
+                </div>
+            </div>
+        </section>
+        <section class="purple-section">
+            <div class="wrapper">
+                <div class="heading-wrapper">
+                    <h2>最后一个标题</h2>
+                    <div class="hr"></div>
+                    <div class="sub-heading">
+                        fasfase dasfefe dad fefa dfasfwef dafeefsa 
+                    </div>
+                </div>
+                <div class="card-group clearfix">
+                    <div class="card">
+                        <h3>标题3</h3>
+                        <p>sadfe afds afefewjojjljafl jlsjdflsjflj</p>
+                    </div>
+                    <div class="card">
+                        <h3>标题4</h3>
+                        <p>sadfeafdsafefewjojjljafljlsjdflsjflj</p>
+                    </div>
+                    <div class="card">
+                        <h3>标题5</h3>
+                        <p>sadfeafdsafefewjojjljafljlsjdflsjflj</p>
+                    </div>
+                    <div class="card">
+                        <h3>标题6</h3>
+                        <p>sadfeafdsafefewjojjljafljlsjdflsjflj</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul class="share-group">
+                <li>item1</li>
+                <li>item1</li>
+                <li>item1</li>
+                <li>item1</li>
+            </ul>
+            <div class="copy">
+                &copy TT - 2016
+            </div>
+        </footer>
+        <!--        {% block content %}{% endblock %} -->
+    </div>
 </body>
 </html>
