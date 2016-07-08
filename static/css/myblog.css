@@ -1,6 +1,6 @@
 .main-wrapper
 {
-    background: transparent;
+    background: #c39b8e;
     overflow:hidden;
 }
 
@@ -9,8 +9,9 @@
     float: right;
     background: #EAB9A9;
     margin-right: 300px;
+    margin-left: 200px;
 }
- 
+
 .main-wrapper .nav
 {
     width: 300px;
@@ -73,7 +74,7 @@ li
 .first-article
 {
     padding-top: 100px;
-    padding-left: 20%;
+    padding-left: 10%;
     padding-right: 10%;
 }
 
@@ -88,6 +89,25 @@ li
 .rest-article
 {
     padding-top: 50px;
-    padding-left: 20%;
+    padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 50px;
+}
+
+
+.tail
+{
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 80px;
+    background: #670202;
+    text-align: center;
+}
+
+.copy
+{
+    color: #fff;
+    font-family: "Verdana";
+    font-size: 15px;
 }

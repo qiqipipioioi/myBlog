@@ -59,7 +59,7 @@ ROOT_URLCONF = 'myblog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/myblog/templates'],
+        'DIRS': ['/myBlog/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -113,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -131,5 +131,5 @@ STATICFILES_DIRS = (
      # Put strings here, like "/home/html/static" or "C:/www/django/static".
      # Always use forward slashes, even on Windows.
      # Don't forget to use absolute paths, not relative paths.
-     '/myblog/static',
+     '/myBlog/static',
 )

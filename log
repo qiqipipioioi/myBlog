@@ -1,0 +1,599 @@
+/myBlog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 08:34:42] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Jul/2016 08:34:42] "GET /admin/ HTTP/1.1" 200 3814
+[08/Jul/2016 08:34:42] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[08/Jul/2016 08:34:43] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[08/Jul/2016 08:34:43] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[08/Jul/2016 08:34:57] "GET /admin/blog/article/ HTTP/1.1" 200 3168
+[08/Jul/2016 08:34:57] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6100
+[08/Jul/2016 08:34:57] "GET /static/admin/js/core.js HTTP/1.1" 200 8366
+[08/Jul/2016 08:34:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:34:57] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[08/Jul/2016 08:34:57] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 7171
+[08/Jul/2016 08:34:57] "GET /static/admin/js/actions.js HTTP/1.1" 200 6259
+[08/Jul/2016 08:34:57] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7693
+[08/Jul/2016 08:34:57] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[08/Jul/2016 08:34:58] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 247597
+[08/Jul/2016 08:34:58] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 200 62474
+[08/Jul/2016 08:34:58] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[08/Jul/2016 08:35:00] "GET /admin/blog/article/add/ HTTP/1.1" 200 8602
+[08/Jul/2016 08:35:00] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[08/Jul/2016 08:35:00] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[08/Jul/2016 08:35:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:35:00] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[08/Jul/2016 08:36:09] "GET /admin/blog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3142
+[08/Jul/2016 08:36:09] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[08/Jul/2016 08:36:09] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[08/Jul/2016 08:36:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:36:09] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 08:36:09] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 08:36:09] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:112: Warning: Incorrect string value: '\xE9\x9A\x8F\xE6\x84\x8F' for column 'name' at row 1
+  return self.cursor.execute(query, args)
+
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:112: Warning: Incorrect string value: '\xE9\x9A\x8F\xE6\x84\x8F' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+
+[08/Jul/2016 08:36:22] "POST /admin/blog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 229
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:112: Warning: Incorrect string value: '\xE7\x9B\xAE\xE5\x89\x8D...' for column 'body' at row 1
+  return self.cursor.execute(query, args)
+
+[08/Jul/2016 08:36:26] "POST /admin/blog/article/add/ HTTP/1.1" 302 0
+[08/Jul/2016 08:36:28] "GET /admin/blog/article/ HTTP/1.1" 200 4499
+[08/Jul/2016 08:36:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:36:29] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[08/Jul/2016 08:36:37] "GET /admin/blog/article/add/ HTTP/1.1" 200 8632
+[08/Jul/2016 08:36:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:112: Warning: Incorrect string value: '\xE6\x88\x91\xE6\x9C\x89...' for column 'title' at row 1
+  return self.cursor.execute(query, args)
+
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:112: Warning: Incorrect string value: '\xE6\x88\x91\xE6\x9C\x89...' for column 'body' at row 1
+  return self.cursor.execute(query, args)
+
+/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:112: Warning: Incorrect string value: '\xE6\x88\x91\xE6\x9C\x89...' for column 'object_repr' at row 1
+  return self.cursor.execute(query, args)
+
+[08/Jul/2016 08:42:08] "POST /admin/blog/article/add/ HTTP/1.1" 302 0
+[08/Jul/2016 08:42:08] "GET /admin/blog/article/ HTTP/1.1" 200 4732
+[08/Jul/2016 08:42:08] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[08/Jul/2016 08:42:08] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[08/Jul/2016 08:42:08] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[08/Jul/2016 08:42:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[08/Jul/2016 08:42:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[08/Jul/2016 08:42:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:42:08] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:42:09] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:42:11] "GET /admin/blog/article/2/change/ HTTP/1.1" 200 11999
+[08/Jul/2016 08:42:11] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[08/Jul/2016 08:42:11] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[08/Jul/2016 08:42:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:42:11] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:42:11] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:42:11] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:42:13] "GET /admin/blog/article/ HTTP/1.1" 200 4571
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 159, in get
+    self.object_list = self.get_queryset()
+  File "/myBlog/blog/views.py", line 30, in get_queryset
+    first_article = article_list[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 297, in __getitem__
+    return list(qs)[0]
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 258, in __iter__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1074, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 52, in __iter__
+    results = compiler.execute_sql()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 848, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "build/bdist.linux-x86_64/egg/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "build/bdist.linux-x86_64/egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'myblog.blog_article' doesn't exist")
+[08/Jul/2016 08:50:07] "GET / HTTP/1.1" 500 126803
+[08/Jul/2016 08:50:13] "GET /admin HTTP/1.1" 301 0
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 233, in inner
+    if not self.has_permission(request):
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 173, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 351, in _setup
+    self._wrapped = self._setupfunc()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/middleware.py", line 22, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/__init__.py", line 167, in get_user
+    user_id = _get_user_session_key(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/__init__.py", line 59, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 50, in __getitem__
+    return self._session[key]
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 201, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 33, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 381, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 240, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1074, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 52, in __iter__
+    results = compiler.execute_sql()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 848, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "build/bdist.linux-x86_64/egg/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "build/bdist.linux-x86_64/egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'myblog.django_session' doesn't exist")
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 233, in inner
+    if not self.has_permission(request):
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 173, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 351, in _setup
+    self._wrapped = self._setupfunc()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/middleware.py", line 22, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/__init__.py", line 167, in get_user
+    user_id = _get_user_session_key(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/auth/__init__.py", line 59, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 50, in __getitem__
+    return self._session[key]
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/base.py", line 201, in _get_session
+    self._session_cache = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/sessions/backends/db.py", line 33, in load
+    expire_date__gt=timezone.now()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 381, in get
+    num = len(clone)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 240, in __len__
+    self._fetch_all()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1074, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 52, in __iter__
+    results = compiler.execute_sql()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 848, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 112, in execute
+    return self.cursor.execute(query, args)
+  File "build/bdist.linux-x86_64/egg/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "build/bdist.linux-x86_64/egg/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (1146, "Table 'myblog.django_session' doesn't exist")
+[08/Jul/2016 08:50:13] "GET /admin/ HTTP/1.1" 500 169592
+- Broken pipe from ('221.226.175.82', 50300)
+[08/Jul/2016 08:50:14] "GET /admin/ HTTP/1.1" 500 169591
+[08/Jul/2016 08:50:40] "GET /admin/ HTTP/1.1" 302 0
+[08/Jul/2016 08:50:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[08/Jul/2016 08:50:40] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[08/Jul/2016 08:50:40] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[08/Jul/2016 08:50:40] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[08/Jul/2016 08:50:40] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 08:50:40] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 08:50:41] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1840
+[08/Jul/2016 08:50:41] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 08:51:04] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Jul/2016 08:51:05] "GET /admin/ HTTP/1.1" 200 3814
+[08/Jul/2016 08:51:05] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[08/Jul/2016 08:51:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:51:05] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /admin/blog/article/ HTTP/1.1" 200 3168
+[08/Jul/2016 08:51:08] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:51:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[08/Jul/2016 08:51:08] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+[08/Jul/2016 08:51:09] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:51:10] "GET /admin/blog/article/add/ HTTP/1.1" 200 8602
+[08/Jul/2016 08:51:10] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[08/Jul/2016 08:51:10] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:51:10] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:51:10] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[08/Jul/2016 08:51:25] "GET /admin/blog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 3142
+[08/Jul/2016 08:51:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:51:32] "POST /admin/blog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 229
+[08/Jul/2016 08:51:33] "POST /admin/blog/article/add/ HTTP/1.1" 302 0
+[08/Jul/2016 08:51:34] "GET /admin/blog/article/ HTTP/1.1" 200 4499
+[08/Jul/2016 08:51:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:51:34] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[08/Jul/2016 08:51:35] "GET /admin/blog/article/1/change/ HTTP/1.1" 200 12810
+[08/Jul/2016 08:51:36] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:51:40] "GET /admin/blog/article/ HTTP/1.1" 200 4349
+[08/Jul/2016 08:51:42] "GET /admin/blog/article/add/ HTTP/1.1" 200 8636
+[08/Jul/2016 08:51:42] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 08:52:04] "POST /admin/blog/article/add/ HTTP/1.1" 302 0
+[08/Jul/2016 08:52:04] "GET /admin/blog/article/ HTTP/1.1" 200 4734
+[08/Jul/2016 08:52:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 90, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 80, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 74, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+TemplateDoesNotExist: blog/first.html
+[08/Jul/2016 08:52:08] "GET / HTTP/1.1" 500 78438
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 08:34:32
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myBlog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 90, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 80, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 74, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+TemplateDoesNotExist: blog/first.html
+[08/Jul/2016 16:54:22] "GET / HTTP/1.1" 500 78593
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 16:54:17
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myBlog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 16:55:54] "GET / HTTP/1.1" 200 11300
+[08/Jul/2016 16:55:55] "GET /static/css/reset.css HTTP/1.1" 404 1756
+[08/Jul/2016 16:55:55] "GET /static/css/myblog.css HTTP/1.1" 404 1759
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 16:55:54
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myBlog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 16:56:13] "GET / HTTP/1.1" 200 11300
+[08/Jul/2016 16:56:13] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[08/Jul/2016 16:56:13] "GET /static/css/myblog.css HTTP/1.1" 200 1078
+[08/Jul/2016 16:57:11] "GET / HTTP/1.1" 200 11300
+[08/Jul/2016 16:57:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 16:57:12] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 16:59:11] "GET / HTTP/1.1" 200 11300
+[08/Jul/2016 16:59:11] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 16:59:12] "GET /static/css/myblog.css HTTP/1.1" 200 1184
+[08/Jul/2016 17:00:05] "GET / HTTP/1.1" 200 11171
+[08/Jul/2016 17:00:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:00:06] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:02:29] "GET / HTTP/1.1" 200 11300
+[08/Jul/2016 17:02:29] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:02:29] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:02:47] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:29] "GET /admin HTTP/1.1" 301 0
+[08/Jul/2016 17:03:29] "GET /admin/ HTTP/1.1" 200 4721
+[08/Jul/2016 17:03:29] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:29] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:29] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /admin/ HTTP/1.1" 200 4721
+[08/Jul/2016 17:03:30] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[08/Jul/2016 17:03:30] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /admin/blog/article/ HTTP/1.1" 200 4583
+[08/Jul/2016 17:03:32] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:03:32] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+[08/Jul/2016 17:03:32] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[08/Jul/2016 17:03:35] "GET /admin/blog/article/2/change/ HTTP/1.1" 200 18155
+[08/Jul/2016 17:03:35] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:35] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[08/Jul/2016 17:03:35] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[08/Jul/2016 17:03:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:03:55] "GET /admin/blog/article/ HTTP/1.1" 200 4583
+[08/Jul/2016 17:03:56] "GET /admin/blog/article/1/change/ HTTP/1.1" 200 12814
+[08/Jul/2016 17:03:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:04:02] "GET /admin/blog/article/ HTTP/1.1" 200 4583
+[08/Jul/2016 17:04:03] "GET /admin/blog/article/2/change/ HTTP/1.1" 200 18155
+[08/Jul/2016 17:04:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Not Found: /phpMyAdmin
+[08/Jul/2016 17:04:05] "GET /phpMyAdmin HTTP/1.1" 404 2675
+[08/Jul/2016 17:04:07] "POST /admin/blog/article/2/change/ HTTP/1.1" 302 0
+[08/Jul/2016 17:04:08] "GET /admin/blog/article/ HTTP/1.1" 200 4740
+[08/Jul/2016 17:04:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:04:09] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[08/Jul/2016 17:04:11] "GET / HTTP/1.1" 200 6444
+[08/Jul/2016 17:04:11] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:04:38] "GET /admin/ HTTP/1.1" 200 5018
+[08/Jul/2016 17:04:38] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[08/Jul/2016 17:04:38] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[08/Jul/2016 17:04:38] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[08/Jul/2016 17:04:39] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[08/Jul/2016 17:04:39] "GET /admin/ HTTP/1.1" 200 5018
+[08/Jul/2016 17:04:41] "GET /admin/blog/article/2/change/ HTTP/1.1" 200 12824
+[08/Jul/2016 17:04:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:04:44] "GET /admin/ HTTP/1.1" 200 5018
+[08/Jul/2016 17:04:46] "GET /admin/blog/article/1/change/ HTTP/1.1" 200 12814
+[08/Jul/2016 17:04:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:05:01] "POST /admin/blog/article/1/change/ HTTP/1.1" 302 0
+[08/Jul/2016 17:05:02] "GET /admin/blog/article/ HTTP/1.1" 200 4735
+[08/Jul/2016 17:05:02] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:05:31] "GET / HTTP/1.1" 200 11300
+[08/Jul/2016 17:05:31] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:05:36] "GET /admin/blog/article/ HTTP/1.1" 200 4583
+[08/Jul/2016 17:05:41] "GET /admin/blog/article/2/change/ HTTP/1.1" 200 12824
+[08/Jul/2016 17:05:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:05:43] "GET /admin/blog/article/ HTTP/1.1" 200 4583
+[08/Jul/2016 17:05:44] "GET /admin/blog/article/1/change/ HTTP/1.1" 200 18145
+[08/Jul/2016 17:05:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:05:53] "GET /admin/blog/article/ HTTP/1.1" 200 4583
+[08/Jul/2016 17:05:55] "GET /admin/blog/article/2/change/ HTTP/1.1" 200 12824
+[08/Jul/2016 17:05:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:06:02] "GET /admin/blog/article/ HTTP/1.1" 200 4583
+[08/Jul/2016 17:06:03] "GET /admin/blog/article/1/change/ HTTP/1.1" 200 18145
+[08/Jul/2016 17:06:03] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:06:25] "POST /admin/blog/article/1/change/ HTTP/1.1" 302 0
+[08/Jul/2016 17:06:25] "GET /admin/blog/article/ HTTP/1.1" 200 4735
+[08/Jul/2016 17:06:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 17:06:27] "GET / HTTP/1.1" 200 3137
+[08/Jul/2016 17:06:27] "GET / HTTP/1.1" 200 3137
+[08/Jul/2016 17:06:27] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Jul/2016 17:07:56] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Jul/2016 17:08:35] "GET / HTTP/1.1" 200 3137
+[08/Jul/2016 17:08:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:08:36] "GET /static/css/myblog.css HTTP/1.1" 200 1230
+[08/Jul/2016 17:09:36] "GET / HTTP/1.1" 200 3137
+[08/Jul/2016 17:09:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:09:37] "GET /static/css/myblog.css HTTP/1.1" 200 1265
+[08/Jul/2016 17:11:09] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:11:09] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:11:09] "GET /static/css/myblog.css HTTP/1.1" 200 1264
+[08/Jul/2016 17:12:23] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:12:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:12:23] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:29:02] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:29:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:29:02] "GET /static/css/myblog.css HTTP/1.1" 200 1257
+[08/Jul/2016 17:32:59] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:32:59] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:32:59] "GET /static/css/myblog.css HTTP/1.1" 200 1291
+[08/Jul/2016 17:33:38] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:33:39] "GET /static/css/myblog.css HTTP/1.1" 200 1283
+[08/Jul/2016 17:33:39] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:34:07] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:34:08] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:34:08] "GET /static/css/myblog.css HTTP/1.1" 200 1284
+[08/Jul/2016 17:34:30] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:34:30] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:34:30] "GET /static/css/myblog.css HTTP/1.1" 200 1306
+[08/Jul/2016 17:34:38] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:34:38] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:34:38] "GET /static/css/myblog.css HTTP/1.1" 200 1306
+[08/Jul/2016 17:34:43] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:34:47] "GET / HTTP/1.1" 200 3144
+[08/Jul/2016 17:35:01] "GET / HTTP/1.1" 200 3143
+[08/Jul/2016 17:35:01] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:35:01] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:44:30] "GET / HTTP/1.1" 200 3143
+[08/Jul/2016 17:44:30] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:44:30] "GET /static/css/myblog.css HTTP/1.1" 200 1332
+[08/Jul/2016 17:48:48] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:50:42] "GET / HTTP/1.1" 200 3143
+[08/Jul/2016 17:50:42] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:50:42] "GET /static/css/myblog.css HTTP/1.1" 200 1335
+[08/Jul/2016 17:50:56] "GET / HTTP/1.1" 200 3143
+[08/Jul/2016 17:50:57] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:50:57] "GET /static/css/myblog.css HTTP/1.1" 200 1335
+[08/Jul/2016 17:51:19] "GET / HTTP/1.1" 200 3143
+[08/Jul/2016 17:51:19] "GET /static/css/myblog.css HTTP/1.1" 200 1334
+[08/Jul/2016 17:51:19] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 17:51:22] "GET / HTTP/1.1" 200 3143
+[08/Jul/2016 17:51:22] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 17:51:22] "GET /static/css/reset.css HTTP/1.1" 200 7279
+Not Found: /http:/maxcd03-dev01.chinacloudapp.cn/index.php
+[08/Jul/2016 18:03:38] "GET http://maxcd03-dev01.chinacloudapp.cn/index.php HTTP/1.0" 404 1734
+[08/Jul/2016 18:08:52] "GET / HTTP/1.1" 200 3206
+[08/Jul/2016 18:08:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:08:52] "GET /static/css/myblog.css HTTP/1.1" 200 1400
+[08/Jul/2016 18:09:12] "GET / HTTP/1.1" 200 3206
+[08/Jul/2016 18:09:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:09:12] "GET /static/css/myblog.css HTTP/1.1" 200 1424
+[08/Jul/2016 18:09:44] "GET / HTTP/1.1" 200 3206
+[08/Jul/2016 18:09:44] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:09:44] "GET /static/css/myblog.css HTTP/1.1" 200 1424
+[08/Jul/2016 18:10:02] "GET / HTTP/1.1" 200 3206
+[08/Jul/2016 18:10:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:10:02] "GET /static/css/myblog.css HTTP/1.1" 200 1424
+[08/Jul/2016 18:10:08] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 18:10:52] "GET / HTTP/1.1" 200 3206
+[08/Jul/2016 18:10:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:10:52] "GET /static/css/myblog.css HTTP/1.1" 200 1424
+[08/Jul/2016 18:11:36] "GET / HTTP/1.1" 200 3206
+[08/Jul/2016 18:11:36] "GET /static/css/myblog.css HTTP/1.1" 200 1441
+[08/Jul/2016 18:11:36] "GET /static/css/reset.css HTTP/1.1" 304 0
+Not Found: /phpmyadmin
+[08/Jul/2016 18:11:43] "GET /phpmyadmin HTTP/1.1" 404 2675
+[08/Jul/2016 18:11:53] "GET / HTTP/1.1" 200 3206
+[08/Jul/2016 18:11:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:11:54] "GET /static/css/myblog.css HTTP/1.1" 200 1461
+[08/Jul/2016 18:12:26] "GET / HTTP/1.1" 200 3206
+[08/Jul/2016 18:12:26] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:12:26] "GET /static/css/myblog.css HTTP/1.1" 200 1461
+[08/Jul/2016 18:15:21] "GET / HTTP/1.1" 200 3163
+[08/Jul/2016 18:15:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:15:21] "GET /static/css/myblog.css HTTP/1.1" 200 1350
+[08/Jul/2016 18:16:23] "GET / HTTP/1.1" 200 3163
+[08/Jul/2016 18:16:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 18:16:23] "GET /static/css/myblog.css HTTP/1.1" 200 1353
+[08/Jul/2016 18:19:51] "GET / HTTP/1.1" 200 3163
+[08/Jul/2016 18:19:51] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[08/Jul/2016 18:19:51] "GET /static/css/myblog.css HTTP/1.1" 200 1353
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Jul/2016 18:34:03] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Jul/2016 18:40:15] "GET / HTTP/1.1" 200 3163
+[08/Jul/2016 18:40:15] "GET /static/css/myblog.css HTTP/1.1" 200 1353
+[08/Jul/2016 18:40:15] "GET /static/css/reset.css HTTP/1.1" 200 7279
+Not Found: /favicon.ico
+[08/Jul/2016 18:40:16] "GET /favicon.ico HTTP/1.1" 404 2680
+Not Found: /favicon.ico
+[08/Jul/2016 18:42:22] "GET /favicon.ico HTTP/1.1" 404 2680
+Not Found: /http:/www.baidu.com/
+[08/Jul/2016 19:05:37] "GET http://www.baidu.com/ HTTP/1.1" 404 1660
+[08/Jul/2016 19:06:33] "GET /admin HTTP/1.1" 301 0
+[08/Jul/2016 19:06:33] "GET /admin/ HTTP/1.1" 302 0
+[08/Jul/2016 19:06:34] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1683
+[08/Jul/2016 19:06:34] "GET /static/admin/css/base.css HTTP/1.1" 200 15897
+[08/Jul/2016 19:06:34] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[08/Jul/2016 19:06:34] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[08/Jul/2016 19:06:34] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[08/Jul/2016 19:06:34] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[08/Jul/2016 19:06:48] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Jul/2016 19:06:49] "GET /admin/ HTTP/1.1" 200 5602
+[08/Jul/2016 19:06:49] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[08/Jul/2016 19:06:49] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[08/Jul/2016 19:06:49] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[08/Jul/2016 19:06:49] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[08/Jul/2016 19:21:27] "GET /admin/ HTTP/1.1" 200 5602
+Not Found: /favicon.ico
+[08/Jul/2016 19:21:27] "GET /favicon.ico HTTP/1.1" 404 2680
+Not Found: /phpMyAdmin
+[08/Jul/2016 19:29:30] "GET /phpMyAdmin HTTP/1.1" 404 2675
+[08/Jul/2016 19:38:03] "GET / HTTP/1.1" 200 3163
+Not Found: /phpMyAdmin
+[08/Jul/2016 19:42:00] "GET /phpMyAdmin HTTP/1.1" 404 2675
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Jul/2016 19:51:07] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Jul/2016 20:19:52] "GET / HTTP/1.1" 200 3163
+[08/Jul/2016 20:19:56] "GET /?t=1467980396857 HTTP/1.1" 200 3163
+[08/Jul/2016 20:19:56] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 20:19:56] "GET / HTTP/1.1" 200 3163
+[08/Jul/2016 20:19:57] "GET /static/css/myblog.css HTTP/1.1" 200 1353
+Not Found: /favicon.ico
+[08/Jul/2016 20:20:01] "GET /favicon.ico HTTP/1.1" 404 2680
+[08/Jul/2016 20:21:06] "GET / HTTP/1.1" 200 3163
+[08/Jul/2016 20:21:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 20:21:10] "GET /static/css/myblog.css HTTP/1.1" 304 0
