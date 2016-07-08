@@ -53074,3 +53074,2851 @@ Not Found: /favicon.ico
 [06/Jul/2016 14:13:09] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
 [06/Jul/2016 14:15:32] "GET / HTTP/1.1" 200 1306
 [06/Jul/2016 14:15:32] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 14:21:58] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:21:58] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:21:58] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:21:58] "GET /static/css/blog.css HTTP/1.1" 200 989
+[06/Jul/2016 14:21:59] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:23:54] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:23:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:23:54] "GET /static/css/blog.css HTTP/1.1" 200 989
+[06/Jul/2016 14:23:54] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:23:54] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:26:33] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:26:33] "GET /static/css/blog.css HTTP/1.1" 200 970
+[06/Jul/2016 14:26:33] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:26:33] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:26:33] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:27:00] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:27:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:27:00] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:27:00] "GET /static/css/blog.css HTTP/1.1" 200 970
+[06/Jul/2016 14:27:01] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:27:53] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:27:53] "GET /static/css/blog.css HTTP/1.1" 200 970
+[06/Jul/2016 14:27:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:27:53] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:27:53] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:27:54] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:27:55] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 14:27:55] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:27:55] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:27:58] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:28:13] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:28:13] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[06/Jul/2016 14:28:13] "GET /static/css/blog.css HTTP/1.1" 200 970
+[06/Jul/2016 14:28:34] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:28:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:28:34] "GET /static/css/blog.css HTTP/1.1" 200 970
+[06/Jul/2016 14:28:34] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:28:34] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:29:26] "GET /static/images/1.jpg HTTP/1.1" 200 221184
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[06/Jul/2016 14:29:26] "GET /static/images/1.jpg HTTP/1.1" 500 59
+- Broken pipe from ('120.52.27.100', 52558)
+[06/Jul/2016 14:29:30] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:29:31] "GET /static/css/blog.css HTTP/1.1" 200 970
+[06/Jul/2016 14:29:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:29:31] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:29:31] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:31:53] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:31:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:31:53] "GET /static/css/blog.css HTTP/1.1" 200 970
+[06/Jul/2016 14:31:53] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:31:53] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:34:54] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:34:54] "GET /static/css/blog.css HTTP/1.1" 200 964
+[06/Jul/2016 14:34:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:34:54] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:34:54] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:36:05] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:36:33] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:36:33] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[06/Jul/2016 14:36:33] "GET /static/css/blog.css HTTP/1.1" 200 964
+[06/Jul/2016 14:37:38] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:37:38] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:37:38] "GET /static/css/blog.css HTTP/1.1" 200 979
+[06/Jul/2016 14:37:38] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:37:38] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:38:33] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:38:33] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:38:33] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:38:33] "GET /static/css/blog.css HTTP/1.1" 200 977
+[06/Jul/2016 14:38:33] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:38:34] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:38:34] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 14:38:34] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:38:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:38:35] "GET / HTTP/1.1" 200 1306
+[06/Jul/2016 14:38:35] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 14:38:35] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:38:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+Not Found: /mobile/
+[06/Jul/2016 14:42:48] "GET /mobile/ HTTP/1.1" 404 2775
+[06/Jul/2016 14:51:58] "GET / HTTP/1.1" 200 1304
+[06/Jul/2016 14:51:58] "GET /static/css/blog.css HTTP/1.1" 200 1001
+[06/Jul/2016 14:51:58] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:51:58] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:51:58] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:52:41] "GET / HTTP/1.1" 200 1304
+[06/Jul/2016 14:52:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:52:41] "GET /static/css/blog.css HTTP/1.1" 200 1018
+[06/Jul/2016 14:52:41] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:52:41] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:52:43] "GET / HTTP/1.1" 200 1304
+[06/Jul/2016 14:52:43] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:52:43] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 14:52:43] "GET /static/images/1.jpg HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[06/Jul/2016 14:53:51] "GET / HTTP/1.1" 200 1304
+[06/Jul/2016 14:53:51] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:53:51] "GET /static/css/blog.css HTTP/1.1" 200 1035
+[06/Jul/2016 14:53:51] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:53:52] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:54:48] "GET / HTTP/1.1" 200 1304
+[06/Jul/2016 14:54:48] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:54:48] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:54:48] "GET /static/css/blog.css HTTP/1.1" 200 1081
+[06/Jul/2016 14:54:48] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 14:55:34] "GET / HTTP/1.1" 200 1304
+[06/Jul/2016 14:55:34] "GET /static/css/blog.css HTTP/1.1" 200 1080
+[06/Jul/2016 14:55:34] "GET /static/images/1.jpg HTTP/1.1" 304 0
+[06/Jul/2016 14:55:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 14:55:34] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:44:48] "GET / HTTP/1.1" 200 1653
+[06/Jul/2016 15:44:48] "GET /static/css/blog.css HTTP/1.1" 200 1245
+[06/Jul/2016 15:44:48] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:44:48] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:46:09] "GET / HTTP/1.1" 200 1653
+[06/Jul/2016 15:46:09] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:46:09] "GET /static/css/blog.css HTTP/1.1" 200 1291
+[06/Jul/2016 15:46:09] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:47:10] "GET / HTTP/1.1" 200 1653
+[06/Jul/2016 15:47:11] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:47:11] "GET /static/css/blog.css HTTP/1.1" 200 1356
+[06/Jul/2016 15:47:11] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:48:43] "GET / HTTP/1.1" 200 1673
+[06/Jul/2016 15:48:43] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:48:43] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 15:50:06] "GET / HTTP/1.1" 200 1673
+[06/Jul/2016 15:50:06] "GET /static/css/blog.css HTTP/1.1" 200 1374
+[06/Jul/2016 15:50:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:50:06] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:53:03] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:53:03] "GET /static/css/blog.css HTTP/1.1" 200 1542
+[06/Jul/2016 15:53:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:53:03] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:53:34] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 15:55:06] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:55:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:55:06] "GET /static/css/blog.css HTTP/1.1" 200 1551
+[06/Jul/2016 15:55:06] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:55:45] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:55:45] "GET /static/css/blog.css HTTP/1.1" 200 1551
+[06/Jul/2016 15:55:45] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:56:34] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:56:34] "GET /static/css/blog.css HTTP/1.1" 200 1570
+[06/Jul/2016 15:56:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:56:34] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:56:43] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:56:43] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:56:43] "GET /static/css/blog.css HTTP/1.1" 200 1570
+[06/Jul/2016 15:56:43] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:58:10] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:58:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:58:10] "GET /static/css/blog.css HTTP/1.1" 200 1589
+[06/Jul/2016 15:58:10] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:58:25] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:58:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:58:25] "GET /static/css/blog.css HTTP/1.1" 200 1589
+[06/Jul/2016 15:58:25] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:58:29] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:58:29] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:58:29] "GET /static/css/blog.css HTTP/1.1" 200 1589
+[06/Jul/2016 15:58:29] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:59:37] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:59:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:59:37] "GET /static/css/blog.css HTTP/1.1" 200 1608
+[06/Jul/2016 15:59:37] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 15:59:41] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 15:59:41] "GET /static/css/blog.css HTTP/1.1" 200 1608
+[06/Jul/2016 15:59:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 15:59:41] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:00:05] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:00:05] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:00:05] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:00:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:00:05] "GET /static/css/blog.css HTTP/1.1" 200 1608
+Not Found: /favicon.ico
+[06/Jul/2016 16:00:07] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[06/Jul/2016 16:00:07] "GET /favicon.ico HTTP/1.1" 404 2783
+[06/Jul/2016 16:03:11] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:03:11] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:03:11] "GET /static/css/blog.css HTTP/1.1" 200 1551
+[06/Jul/2016 16:03:11] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:03:30] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:03:30] "GET /static/css/blog.css HTTP/1.1" 200 1556
+[06/Jul/2016 16:03:30] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:03:30] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:03:39] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:03:39] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:03:39] "GET /static/css/blog.css HTTP/1.1" 200 1556
+[06/Jul/2016 16:03:39] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:04:23] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:04:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:04:23] "GET /static/css/blog.css HTTP/1.1" 200 1536
+[06/Jul/2016 16:04:23] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:05:13] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:05:13] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:05:13] "GET /static/css/blog.css HTTP/1.1" 200 1531
+[06/Jul/2016 16:05:13] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:05:23] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:05:23] "GET /static/css/blog.css HTTP/1.1" 200 1531
+[06/Jul/2016 16:05:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:05:23] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:05:45] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:05:45] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:05:45] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 16:05:45] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:06:18] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:06:18] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:06:18] "GET /static/css/blog.css HTTP/1.1" 200 1550
+[06/Jul/2016 16:06:18] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:06:27] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:06:27] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:06:27] "GET /static/css/blog.css HTTP/1.1" 200 1550
+[06/Jul/2016 16:06:27] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:07:35] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:07:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:07:35] "GET /static/css/blog.css HTTP/1.1" 200 1531
+[06/Jul/2016 16:07:35] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:07:40] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:07:40] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:07:40] "GET /static/css/blog.css HTTP/1.1" 200 1531
+[06/Jul/2016 16:07:40] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:08:07] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:08:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:08:07] "GET /static/css/blog.css HTTP/1.1" 200 1550
+[06/Jul/2016 16:08:15] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:08:15] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:08:15] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 16:08:26] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:08:27] "GET /static/css/blog.css HTTP/1.1" 200 1551
+[06/Jul/2016 16:08:27] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:08:27] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:09:03] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:09:03] "GET /static/css/blog.css HTTP/1.1" 200 1550
+[06/Jul/2016 16:09:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:09:03] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:17:13] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:17:13] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:17:13] "GET /static/css/blog.css HTTP/1.1" 200 1550
+[06/Jul/2016 16:17:13] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:25:52] "GET / HTTP/1.1" 200 1731
+[06/Jul/2016 16:25:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:25:52] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 16:33:10] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:33:10] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[06/Jul/2016 16:33:10] "GET /static/css/blog.css HTTP/1.1" 200 1748
+[06/Jul/2016 16:33:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:33:11] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[06/Jul/2016 16:35:55] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:35:55] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:35:55] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:35:55] "GET /static/css/blog.css HTTP/1.1" 200 1949
+[06/Jul/2016 16:35:55] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:38:34] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:38:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:38:34] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:38:34] "GET /static/css/blog.css HTTP/1.1" 200 1949
+[06/Jul/2016 16:38:34] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:38:40] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 16:40:00] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:40:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:40:00] "GET /static/css/blog.css HTTP/1.1" 200 1954
+[06/Jul/2016 16:40:00] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:40:00] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:42:31] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:42:31] "GET /static/css/blog.css HTTP/1.1" 200 1954
+[06/Jul/2016 16:42:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:42:31] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+Not Found: /favicon.ico
+[06/Jul/2016 16:42:31] "GET /favicon.ico HTTP/1.1" 404 2787
+[06/Jul/2016 16:45:11] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:45:11] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:45:11] "GET /static/css/blog.css HTTP/1.1" 200 1950
+[06/Jul/2016 16:45:11] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:45:11] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:45:33] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:45:33] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:45:33] "GET /static/css/blog.css HTTP/1.1" 200 1950
+[06/Jul/2016 16:45:33] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:45:34] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:45:52] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:45:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:45:52] "GET /static/css/blog.css HTTP/1.1" 200 1947
+[06/Jul/2016 16:45:52] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:45:53] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:46:15] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:46:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:46:16] "GET /static/css/blog.css HTTP/1.1" 200 1949
+[06/Jul/2016 16:46:16] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:46:16] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:48:05] "GET / HTTP/1.1" 200 2125
+[06/Jul/2016 16:48:05] "GET /static/css/blog.css HTTP/1.1" 200 2062
+[06/Jul/2016 16:48:05] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:48:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:48:05] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:50:23] "GET / HTTP/1.1" 200 2233
+[06/Jul/2016 16:50:23] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:50:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:50:23] "GET /static/css/blog.css HTTP/1.1" 200 2064
+[06/Jul/2016 16:50:23] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:51:27] "GET / HTTP/1.1" 200 2233
+[06/Jul/2016 16:51:27] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:51:27] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:51:27] "GET /static/css/blog.css HTTP/1.1" 200 2135
+[06/Jul/2016 16:51:27] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:52:38] "GET / HTTP/1.1" 200 2680
+[06/Jul/2016 16:52:38] "GET /static/css/blog.css HTTP/1.1" 200 2135
+[06/Jul/2016 16:52:38] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:52:38] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:52:38] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:53:49] "GET / HTTP/1.1" 200 2680
+[06/Jul/2016 16:53:49] "GET /static/css/blog.css HTTP/1.1" 200 2153
+[06/Jul/2016 16:53:49] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:53:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:53:49] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:55:29] "GET / HTTP/1.1" 200 2680
+[06/Jul/2016 16:59:21] "GET / HTTP/1.1" 200 3124
+[06/Jul/2016 16:59:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:59:21] "GET /static/css/blog.css HTTP/1.1" 200 2235
+[06/Jul/2016 16:59:21] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:59:21] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 16:59:30] "GET / HTTP/1.1" 200 3124
+[06/Jul/2016 16:59:30] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 16:59:30] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 16:59:30] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 17:00:35] "GET / HTTP/1.1" 200 3124
+[06/Jul/2016 17:00:35] "GET /static/css/blog.css HTTP/1.1" 200 2278
+[06/Jul/2016 17:00:35] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 17:00:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 17:00:35] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[06/Jul/2016 17:03:09] "GET / HTTP/1.1" 200 3124
+[06/Jul/2016 17:03:09] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 17:03:09] "GET /static/css/blog.css HTTP/1.1" 200 2278
+[06/Jul/2016 17:03:09] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 17:03:10] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 17:04:23] "GET / HTTP/1.1" 200 3124
+[06/Jul/2016 17:04:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 17:04:23] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 17:04:23] "GET /static/css/blog.css HTTP/1.1" 200 2278
+[06/Jul/2016 17:04:23] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[06/Jul/2016 17:08:02] "GET / HTTP/1.1" 200 3124
+[06/Jul/2016 17:08:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[06/Jul/2016 17:08:02] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[06/Jul/2016 17:08:02] "GET /static/css/blog.css HTTP/1.1" 304 0
+[06/Jul/2016 17:28:05] "GET / HTTP/1.1" 200 3124
+[06/Jul/2016 17:28:05] "GET /static/css/blog.css HTTP/1.1" 304 0
+Not Found: /manager/html
+[06/Jul/2016 17:42:18] "GET /manager/html HTTP/1.1" 404 2788
+Not Found: /manager/html
+[06/Jul/2016 17:50:09] "GET /manager/html HTTP/1.1" 404 2788
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Jul/2016 18:03:18] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Jul/2016 18:23:45] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Jul/2016 19:43:05] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /phpmyadmin
+[06/Jul/2016 20:30:25] "GET /phpmyadmin HTTP/1.1" 404 2782
+[06/Jul/2016 20:57:05] "GET / HTTP/1.1" 200 3124
+Not Found: /http:/www.baidu.com/
+[06/Jul/2016 21:06:23] "GET http://www.baidu.com/ HTTP/1.1" 404 1660
+Not Found: /robots.txt
+[06/Jul/2016 21:59:55] "GET /robots.txt HTTP/1.1" 404 2780
+[06/Jul/2016 21:59:55] "GET / HTTP/1.1" 200 3124
+Not Found: /manager/html
+[06/Jul/2016 22:02:16] "GET /manager/html HTTP/1.1" 404 2788
+[06/Jul/2016 22:02:25] "GET /blog/article/2 HTTP/1.1" 200 4172
+[06/Jul/2016 22:03:27] "GET /blog/article/1 HTTP/1.1" 200 4174
+[06/Jul/2016 22:05:37] "GET /blog/category/1 HTTP/1.1" 200 3124
+[06/Jul/2016 22:07:27] "GET /blog/ HTTP/1.1" 200 3124
+Not Found: /http:/testp1.piwo.pila.pl/testproxy.php
+[06/Jul/2016 22:41:15] "GET http://testp1.piwo.pila.pl/testproxy.php HTTP/1.1" 404 1723
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Jul/2016 22:46:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[06/Jul/2016 22:59:32] "GET / HTTP/1.1" 200 3124
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Jul/2016 23:14:08] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.mafengwo.cn/
+[07/Jul/2016 00:20:22] "GET http://www.mafengwo.cn/ HTTP/1.1" 404 1668
+Not Found: /http:/maxcd03-dev01.chinacloudapp.cn/index.php
+[07/Jul/2016 00:25:49] "GET http://maxcd03-dev01.chinacloudapp.cn/index.php HTTP/1.0" 404 1734
+Not Found: /robots.txt
+[07/Jul/2016 01:19:42] "GET /robots.txt HTTP/1.1" 404 2780
+[07/Jul/2016 01:19:43] "GET / HTTP/1.1" 200 3124
+[07/Jul/2016 01:30:16] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 01:54:06] "GET / HTTP/1.1" 200 4302
+[07/Jul/2016 01:54:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 01:54:07] "GET /static/css/blog.css HTTP/1.1" 200 2488
+[07/Jul/2016 01:54:08] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+Not Found: /favicon.ico
+[07/Jul/2016 01:54:08] "GET /favicon.ico HTTP/1.1" 404 2787
+[07/Jul/2016 01:54:29] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 01:55:19] "GET / HTTP/1.1" 200 4302
+[07/Jul/2016 01:55:19] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 01:55:19] "GET /static/css/blog.css HTTP/1.1" 200 2532
+[07/Jul/2016 01:55:19] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 01:55:19] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 01:56:35] "GET / HTTP/1.1" 200 4302
+[07/Jul/2016 01:57:39] "GET / HTTP/1.1" 200 4311
+[07/Jul/2016 01:57:39] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 01:57:39] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 01:57:39] "GET /static/css/blog.css HTTP/1.1" 200 2630
+[07/Jul/2016 01:57:39] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 01:58:11] "GET / HTTP/1.1" 200 4311
+[07/Jul/2016 01:58:11] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 01:58:11] "GET /static/css/blog.css HTTP/1.1" 200 2636
+[07/Jul/2016 01:58:11] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 01:58:11] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:03:21] "GET / HTTP/1.1" 200 4311
+[07/Jul/2016 02:03:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:03:21] "GET /static/css/blog.css HTTP/1.1" 200 2940
+[07/Jul/2016 02:03:21] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:03:22] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:08:41] "GET / HTTP/1.1" 200 4311
+[07/Jul/2016 02:08:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:08:41] "GET /static/css/blog.css HTTP/1.1" 200 3229
+[07/Jul/2016 02:08:41] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:08:41] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:11:08] "GET / HTTP/1.1" 200 4311
+[07/Jul/2016 02:11:08] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:11:08] "GET /static/css/blog.css HTTP/1.1" 200 3200
+[07/Jul/2016 02:11:08] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:11:09] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+Not Found: /robots.txt
+[07/Jul/2016 02:11:39] "GET /robots.txt HTTP/1.1" 404 2784
+[07/Jul/2016 02:11:39] "GET / HTTP/1.1" 200 4311
+[07/Jul/2016 02:15:10] "GET / HTTP/1.1" 200 4311
+[07/Jul/2016 02:15:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:15:10] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 02:15:10] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:15:10] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:16:48] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 02:16:49] "GET /static/css/blog.css HTTP/1.1" 200 3200
+[07/Jul/2016 02:19:32] "GET / HTTP/1.1" 200 4311
+[07/Jul/2016 02:19:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:19:32] "GET /static/css/blog.css HTTP/1.1" 200 3227
+[07/Jul/2016 02:19:32] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:19:32] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:19:53] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:19:54] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:19:54] "GET /static/css/blog.css HTTP/1.1" 200 3200
+[07/Jul/2016 02:19:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:19:54] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:20:40] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:20:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:20:41] "GET /static/css/blog.css HTTP/1.1" 200 3227
+[07/Jul/2016 02:20:41] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:20:41] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 02:21:51] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Jul/2016 02:23:20] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:23:21] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:23:21] "GET /static/css/blog.css HTTP/1.1" 200 3248
+[07/Jul/2016 02:23:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:23:21] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:24:46] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:24:46] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:24:46] "GET /static/css/blog.css HTTP/1.1" 200 3244
+[07/Jul/2016 02:24:46] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:24:46] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:27:49] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:27:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:27:49] "GET /static/css/blog.css HTTP/1.1" 200 3244
+[07/Jul/2016 02:27:49] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:27:50] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:27:59] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:27:59] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:27:59] "GET /static/css/blog.css HTTP/1.1" 200 3227
+[07/Jul/2016 02:27:59] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:27:59] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:28:34] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:28:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:28:34] "GET /static/css/blog.css HTTP/1.1" 200 3263
+[07/Jul/2016 02:28:34] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:28:34] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:28:48] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:28:48] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:28:48] "GET /static/css/blog.css HTTP/1.1" 200 3227
+[07/Jul/2016 02:28:48] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:28:48] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:36:56] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:36:56] "GET /static/css/blog.css HTTP/1.1" 200 3194
+[07/Jul/2016 02:36:56] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:36:56] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:36:56] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:37:38] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:37:38] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:37:38] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:37:38] "GET /static/css/blog.css HTTP/1.1" 200 3209
+[07/Jul/2016 02:37:38] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:37:47] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 02:38:16] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:38:16] "GET /?_t_t_t=0.6347512069623917 HTTP/1.1" 200 4314
+[07/Jul/2016 02:38:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:38:16] "GET /static/css/blog.css HTTP/1.1" 200 3209
+[07/Jul/2016 02:38:33] "GET / HTTP/1.1" 200 4314
+[07/Jul/2016 02:38:33] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 02:38:33] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:38:33] "GET /static/css/reset.css HTTP/1.1" 304 0
+Not Found: /http:/maxcd03-dev01.chinacloudapp.cn/index.php
+[07/Jul/2016 02:44:09] "GET http://maxcd03-dev01.chinacloudapp.cn/index.php HTTP/1.0" 404 1734
+[07/Jul/2016 02:57:19] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 02:57:19] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:57:19] "GET /static/css/blog.css HTTP/1.1" 200 3491
+[07/Jul/2016 02:57:19] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:57:19] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:57:51] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 02:57:51] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:57:51] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:57:51] "GET /static/css/blog.css HTTP/1.1" 200 3510
+[07/Jul/2016 02:57:51] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:57:52] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 02:57:52] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 02:57:52] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:57:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:57:54] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 02:57:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:57:54] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 02:57:54] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:58:19] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 02:58:19] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:58:19] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:58:19] "GET /static/css/blog.css HTTP/1.1" 200 3515
+[07/Jul/2016 02:58:19] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:58:19] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 02:58:20] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:58:20] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 02:58:20] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:58:34] "GET /static/css/blog.css HTTP/1.1" 200 3510
+[07/Jul/2016 02:58:42] "GET /blog/article/2 HTTP/1.1" 200 5674
+[07/Jul/2016 02:59:32] "GET / HTTP/1.1" 200 4643
+[07/Jul/2016 02:59:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:59:32] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 02:59:32] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 02:59:32] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 02:59:33] "GET / HTTP/1.1" 200 4643
+[07/Jul/2016 02:59:33] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 02:59:34] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 02:59:34] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:00:12] "GET /blog/article/1 HTTP/1.1" 200 5676
+[07/Jul/2016 03:00:49] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 03:00:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:00:49] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:00:49] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:02:15] "GET /blog/category/1 HTTP/1.1" 200 4626
+[07/Jul/2016 03:02:39] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 03:02:39] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:02:39] "GET /static/css/blog.css HTTP/1.1" 200 3506
+[07/Jul/2016 03:02:39] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:02:40] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:03:01] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 03:03:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:03:02] "GET /static/css/blog.css HTTP/1.1" 200 3505
+[07/Jul/2016 03:03:02] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:03:02] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:03:27] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 03:03:28] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:03:28] "GET /static/css/blog.css HTTP/1.1" 200 3502
+[07/Jul/2016 03:03:28] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:03:28] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:03:46] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 03:03:46] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:03:46] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:03:46] "GET /static/css/blog.css HTTP/1.1" 200 3432
+[07/Jul/2016 03:03:47] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:04:13] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 03:04:14] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:04:14] "GET /static/css/blog.css HTTP/1.1" 200 3510
+[07/Jul/2016 03:04:14] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:04:14] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:06:02] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 03:06:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:06:02] "GET /static/css/blog.css HTTP/1.1" 200 3507
+[07/Jul/2016 03:06:02] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:06:03] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:06:15] "GET / HTTP/1.1" 200 4626
+[07/Jul/2016 03:06:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:06:16] "GET /static/css/blog.css HTTP/1.1" 200 3488
+[07/Jul/2016 03:06:16] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:06:16] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:09:29] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:09:29] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:09:29] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:09:29] "GET /static/css/blog.css HTTP/1.1" 200 3577
+[07/Jul/2016 03:09:29] "GET /static/images/space.jpg HTTP/1.1" 404 1765
+[07/Jul/2016 03:10:03] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:10:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:10:03] "GET /static/css/blog.css HTTP/1.1" 200 3584
+[07/Jul/2016 03:10:03] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:10:04] "GET /static/images/space.jpg HTTP/1.1" 404 1765
+[07/Jul/2016 03:11:25] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:11:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:11:25] "GET /static/css/blog.css HTTP/1.1" 200 3589
+[07/Jul/2016 03:11:25] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:11:25] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:12:37] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:12:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:12:37] "GET /static/css/blog.css HTTP/1.1" 200 3566
+[07/Jul/2016 03:12:37] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:12:37] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:13:06] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:13:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:13:06] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:13:06] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:15:10] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:15:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:15:10] "GET /static/css/blog.css HTTP/1.1" 200 3613
+[07/Jul/2016 03:15:10] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:15:10] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:15:31] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:16:03] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:16:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:16:03] "GET /static/css/blog.css HTTP/1.1" 200 3618
+[07/Jul/2016 03:16:03] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:16:03] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:16:15] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:16:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:16:16] "GET /static/css/blog.css HTTP/1.1" 200 3614
+[07/Jul/2016 03:16:16] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:16:16] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:16:17] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:19:00] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:19:00] "GET /static/css/blog.css HTTP/1.1" 200 3614
+[07/Jul/2016 03:19:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:19:00] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:19:01] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:19:24] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:19:24] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:19:24] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:19:24] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:19:31] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:19:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:19:31] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:19:31] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:21:13] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:22:00] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:22:00] "GET /static/css/blog.css HTTP/1.1" 200 3637
+[07/Jul/2016 03:22:00] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:22:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:22:00] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:22:07] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:22:07] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:22:07] "GET /static/css/blog.css HTTP/1.1" 200 3637
+[07/Jul/2016 03:22:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:22:08] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:22:23] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:22:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:22:24] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:22:24] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:22:59] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:23:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:23:00] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:23:00] "GET /static/css/blog.css HTTP/1.1" 200 3637
+[07/Jul/2016 03:23:00] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:23:22] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:23:22] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:23:22] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:23:22] "GET /static/css/blog.css HTTP/1.1" 200 3636
+[07/Jul/2016 03:23:23] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:23:24] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:23:24] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:23:24] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:23:24] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:23:30] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:23:30] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:23:30] "GET /static/css/blog.css HTTP/1.1" 200 3636
+[07/Jul/2016 03:23:30] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:23:30] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:25:34] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:25:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:25:34] "GET /static/css/blog.css HTTP/1.1" 200 3637
+[07/Jul/2016 03:25:34] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:25:35] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:25:36] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:25:36] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:25:36] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:25:36] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:00] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:00] "GET /static/css/blog.css HTTP/1.1" 200 3637
+[07/Jul/2016 03:26:06] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:06] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:06] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:17] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:17] "GET /static/css/blog.css HTTP/1.1" 200 3635
+[07/Jul/2016 03:26:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:17] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:17] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:20] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:20] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:20] "GET /static/css/blog.css HTTP/1.1" 200 3635
+[07/Jul/2016 03:26:20] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:20] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:48] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:48] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:48] "GET /static/css/blog.css HTTP/1.1" 200 3634
+[07/Jul/2016 03:26:48] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:48] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:49] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:49] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:49] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:52] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:52] "GET /?_t_t_t=0.7286170746665448 HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:52] "GET /static/css/blog.css HTTP/1.1" 200 3634
+[07/Jul/2016 03:26:54] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:54] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:54] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:56] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:26:56] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:26:56] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:26:56] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:28:52] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:28:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:28:52] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:28:52] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:28:59] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:28:59] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:28:59] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:28:59] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:29:17] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:29:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:29:17] "GET /static/css/blog.css HTTP/1.1" 200 3639
+[07/Jul/2016 03:29:17] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:29:17] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:29:18] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:29:18] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:29:18] "GET /static/css/blog.css HTTP/1.1" 200 3639
+[07/Jul/2016 03:29:18] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:29:19] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:29:39] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:29:39] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:29:39] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:29:39] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:29:42] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:29:42] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:29:42] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:29:42] "GET /static/css/reset.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 03:30:11] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:30:11] "GET /favicon.ico HTTP/1.1" 404 2787
+[07/Jul/2016 03:30:12] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:30:12] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 03:30:12] "GET /static/css/blog.css HTTP/1.1" 200 3639
+[07/Jul/2016 03:30:12] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+Not Found: /favicon.ico
+[07/Jul/2016 03:30:12] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:30:13] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+[07/Jul/2016 03:30:36] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:30:36] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:30:36] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:30:36] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:30:36] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:30:37] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:30:37] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:30:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:30:37] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 03:31:11] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:31:11] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:31:11] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:31:11] "GET /static/css/blog.css HTTP/1.1" 200 3636
+[07/Jul/2016 03:31:11] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:31:30] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:31:30] "GET /static/css/blog.css HTTP/1.1" 200 3636
+[07/Jul/2016 03:32:24] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:32:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:32:25] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:32:25] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:32:25] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:32:36] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:32:36] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:32:36] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:32:36] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:32:37] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:33:41] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:33:41] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:33:41] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:33:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:33:41] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:33:48] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:34:04] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:34:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:34:04] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:34:05] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:34:05] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:34:23] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:34:27] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:34:27] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:34:27] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:34:27] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:34:27] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:34:52] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:34:52] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:34:52] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:34:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:34:52] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:34:56] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:34:56] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:34:56] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 03:35:06] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:35:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:35:06] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:35:06] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:35:18] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:36:02] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:36:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:36:03] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:36:03] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:37:30] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:37:31] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:37:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:37:31] "GET /static/css/blog.css HTTP/1.1" 200 3632
+Not Found: /favicon.ico
+[07/Jul/2016 03:37:33] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:37:33] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:37:34] "GET / HTTP/1.1" 200 4666
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 03:37:58] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:37:58] "GET /static/css/blog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 03:37:59] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:37:59] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:38:08] "GET / HTTP/1.1" 200 4666
+Not Found: /favicon.ico
+[07/Jul/2016 03:38:09] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:38:18] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:38:18] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 03:38:18] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 03:38:18] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:38:20] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+Not Found: /favicon.ico
+[07/Jul/2016 03:38:25] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:39:25] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:39:26] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:39:26] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:26] "GET /static/css/blog.css HTTP/1.1" 200 3634
+[07/Jul/2016 03:39:26] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:35] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:39:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:39:35] "GET /static/css/blog.css HTTP/1.1" 200 3634
+[07/Jul/2016 03:39:35] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:35] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:36] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:39:36] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:39:36] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:36] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:39:41] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:39:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:39:41] "GET /static/css/blog.css HTTP/1.1" 200 3634
+[07/Jul/2016 03:39:41] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:41] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:51] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:39:51] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:39:51] "GET /static/css/blog.css HTTP/1.1" 200 3631
+[07/Jul/2016 03:39:51] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:51] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:39:59] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:40:00] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:40:00] "GET /static/css/blog.css HTTP/1.1" 200 3631
+[07/Jul/2016 03:40:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:40:00] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:40:08] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:40:08] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:40:08] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:40:08] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:40:08] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    self.finish_request(request, client_address)
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    self.handle()
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 03:40:15] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:40:15] "GET /static/css/blog.css HTTP/1.1" 200 3632
+Not Found: /favicon.ico
+[07/Jul/2016 03:40:15] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:40:54] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:40:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:40:54] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:40:54] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:40:54] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 03:41:01] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:41:01] "GET /static/css/blog.css HTTP/1.1" 200 3632
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Not Found: /favicon.ico
+[07/Jul/2016 03:41:03] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:41:03] "GET /favicon.ico HTTP/1.1" 404 2783
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 03:41:16] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:41:16] "GET /static/css/blog.css HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Not Found: /favicon.ico
+[07/Jul/2016 03:41:16] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:45:11] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:11] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 03:45:11] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:45:11] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 03:45:12] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+Not Found: /favicon.ico
+[07/Jul/2016 03:45:12] "GET /favicon.ico HTTP/1.1" 404 2787
+[07/Jul/2016 03:45:28] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:28] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:34] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:36] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:38] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:38] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:38] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 03:45:38] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 03:45:38] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 03:45:43] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+Not Found: /favicon.ico
+[07/Jul/2016 03:45:44] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:45:44] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:45:45] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:45] "GET / HTTP/1.1" 200 4666
+Not Found: /favicon.ico
+[07/Jul/2016 03:45:54] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:45:54] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:45:55] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:46:01] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:46:01] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:46:01] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:46:01] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:46:02] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:46:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:46:02] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 03:46:03] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 03:46:10] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:46:10] "GET /static/css/blog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 03:46:12] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:46:12] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 03:46:20] "GET / HTTP/1.1" 200 4666
+Not Found: /m/
+[07/Jul/2016 03:46:38] "GET /m/ HTTP/1.1" 404 2760
+[07/Jul/2016 03:48:41] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:48:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 03:48:41] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 03:48:41] "GET /static/css/blog.css HTTP/1.1" 304 0
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 03:48:46] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:48:46] "GET /static/css/blog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 03:48:47] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:48:47] "GET /favicon.ico HTTP/1.1" 404 2783
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 06, 2016 - 13:41:09
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 34851)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 57616)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 57688)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 34847)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 34804)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('60.28.187.20', 9349)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('60.28.187.20', 18276)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('60.28.187.20', 9351)
+----------------------------------------
+Exception happened during processing of request from ('60.28.187.20', 18277)
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('60.28.187.20', 18275)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 48868)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 42613)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 43875)
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 37307)----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 37234)
+
+----------------------------------------
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 36638)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('140.207.54.158', 44110)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 34602)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 34690)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 60651)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 55902)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 55868)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 52468)
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 48291)
+----------------------------------------
+----------------------------------------
+-----Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 03:51:06] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:51:06] "GET /static/css/blog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 03:51:07] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:51:07] "GET /favicon.ico HTTP/1.1" 404 2783
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 03:57:32] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 03:57:32] "GET /static/css/blog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 03:57:33] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 03:57:33] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 04:05:36] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Jul/2016 04:12:09] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:12:09] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 04:12:09] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 04:12:09] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 04:12:09] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+[07/Jul/2016 04:12:10] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 04:12:10] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+[07/Jul/2016 04:12:21] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:12:22] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:12:22] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 04:12:22] "GET /static/css/blog.css HTTP/1.1" 200 3632
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 04:16:32] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:16:32] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:16:32] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:16:32] "GET /static/css/blog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 04:16:34] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 04:16:34] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /http:/testp4.pospr.waw.pl/testproxy.php
+[07/Jul/2016 04:25:23] "GET http://testp4.pospr.waw.pl/testproxy.php HTTP/1.1" 404 1723
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 04:53:53] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:53:54] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 04:54:05] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:54:05] "GET /static/css/blog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 04:54:07] "GET /favicon.ico HTTP/1.1" 404 2783
+Not Found: /favicon.ico
+[07/Jul/2016 04:54:07] "GET /favicon.ico HTTP/1.1" 404 2783
+[07/Jul/2016 04:54:15] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 04:54:15] "GET / HTTP/1.1" 200 4666
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Jul/2016 06:00:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 06:00:23] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 06:02:21] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 06:02:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 06:02:21] "GET /static/css/blog.css HTTP/1.1" 304 0
+[07/Jul/2016 06:02:21] "GET /static/images/fa.jpg HTTP/1.1" 304 0
+[07/Jul/2016 06:02:22] "GET /static/images/space.jpeg HTTP/1.1" 304 0
+[07/Jul/2016 06:38:42] "GET / HTTP/1.1" 200 4666
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 06:39:16] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /chs/index.html
+[07/Jul/2016 07:13:52] "HEAD /chs/index.html HTTP/1.1" 404 0
+[07/Jul/2016 07:18:13] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 07:18:13] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 07:18:13] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 07:18:13] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 07:18:13] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+[07/Jul/2016 07:18:13] "GET / HTTP/1.1" 200 4666
+[07/Jul/2016 07:18:13] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 07:18:13] "GET /static/css/blog.css HTTP/1.1" 200 3632
+[07/Jul/2016 07:18:13] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 07:18:14] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+[07/Jul/2016 07:18:14] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 07:18:14] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+[07/Jul/2016 07:18:15] "GET /static/images/fa.jpg HTTP/1.1" 200 14472
+[07/Jul/2016 07:18:15] "GET /static/images/space.jpeg HTTP/1.1" 200 215187
+[07/Jul/2016 07:35:31] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:35:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:35:31] "GET /static/css/myblog.css HTTP/1.1" 200 172
+[07/Jul/2016 07:36:40] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 07:38:10] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:38:10] "GET /static/css/myblog.css HTTP/1.1" 200 217
+[07/Jul/2016 07:38:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:38:30] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:38:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:38:31] "GET /static/css/myblog.css HTTP/1.1" 200 219
+[07/Jul/2016 07:38:31] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:38:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:38:32] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 07:39:23] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:39:24] "GET /static/css/myblog.css HTTP/1.1" 200 231
+[07/Jul/2016 07:39:24] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:40:08] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:40:08] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:40:08] "GET /static/css/myblog.css HTTP/1.1" 200 197
+[07/Jul/2016 07:45:27] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:45:27] "GET /static/css/myblog.css HTTP/1.1" 200 226
+[07/Jul/2016 07:45:27] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:51:29] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:51:29] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:51:29] "GET /static/css/myblog.css HTTP/1.1" 200 206
+[07/Jul/2016 07:53:38] "GET / HTTP/1.1" 200 383
+[07/Jul/2016 07:53:38] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:53:38] "GET /static/css/myblog.css HTTP/1.1" 200 239
+[07/Jul/2016 07:55:16] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 07:55:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:55:17] "GET /static/css/myblog.css HTTP/1.1" 200 251
+[07/Jul/2016 07:56:16] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 07:56:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:56:17] "GET /static/css/myblog.css HTTP/1.1" 200 250
+[07/Jul/2016 07:57:23] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 07:57:24] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:57:24] "GET /static/css/myblog.css HTTP/1.1" 200 246
+[07/Jul/2016 07:58:05] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 07:58:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:58:07] "GET /static/css/myblog.css HTTP/1.1" 200 250
+[07/Jul/2016 07:58:32] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 07:58:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:58:32] "GET /static/css/myblog.css HTTP/1.1" 200 267
+[07/Jul/2016 07:59:41] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 07:59:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 07:59:42] "GET /static/css/myblog.css HTTP/1.1" 200 261
+[07/Jul/2016 08:00:23] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:02:53] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:02:53] "GET /static/css/myblog.css HTTP/1.1" 200 295
+[07/Jul/2016 08:02:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 08:03:59] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:04:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 08:04:00] "GET /static/css/myblog.css HTTP/1.1" 200 291
+[07/Jul/2016 08:04:14] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:04:14] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 08:04:14] "GET /static/css/myblog.css HTTP/1.1" 200 270
+[07/Jul/2016 08:05:49] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:05:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 08:05:50] "GET /static/css/myblog.css HTTP/1.1" 200 272
+[07/Jul/2016 08:06:22] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Not Found: /http:/testp4.pospr.waw.pl/testproxy.php
+[07/Jul/2016 08:30:30] "GET http://testp4.pospr.waw.pl/testproxy.php HTTP/1.1" 404 1723
+Not Found: /http:/testp4.pospr.waw.pl/testproxy.php
+[07/Jul/2016 08:30:52] "GET http://testp4.pospr.waw.pl/testproxy.php HTTP/1.1" 404 1723
+Not Found: /hndUnblock.cgi
+[07/Jul/2016 08:36:39] "GET /hndUnblock.cgi HTTP/1.0" 404 2794
+Not Found: /tmUnblock.cgi
+[07/Jul/2016 08:36:39] "GET /tmUnblock.cgi HTTP/1.0" 404 2791
+Not Found: /cgi/common.cgi
+[07/Jul/2016 08:36:40] "GET /cgi/common.cgi HTTP/1.0" 404 2794
+Not Found: /stssys.htm
+[07/Jul/2016 08:36:40] "GET /stssys.htm HTTP/1.0" 404 2782
+[07/Jul/2016 08:36:41] "GET / HTTP/1.0" 200 389
+Not Found: /command.php
+[07/Jul/2016 08:36:41] "POST /command.php HTTP/1.0" 404 2786
+[07/Jul/2016 08:41:41] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:41:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 08:41:41] "GET /static/css/myblog.css HTTP/1.1" 200 276
+[07/Jul/2016 08:43:02] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 08:52:00] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:52:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 08:52:00] "GET /static/css/myblog.css HTTP/1.1" 200 277
+[07/Jul/2016 08:52:17] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:52:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 08:52:17] "GET /static/css/myblog.css HTTP/1.1" 200 276
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 08:57:12] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Jul/2016 08:58:32] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:58:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 08:58:32] "GET /static/css/myblog.css HTTP/1.1" 200 256
+[07/Jul/2016 08:58:46] "GET / HTTP/1.1" 200 389
+[07/Jul/2016 08:58:46] "GET /static/css/myblog.css HTTP/1.1" 200 276
+[07/Jul/2016 08:58:46] "GET /static/css/reset.css HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/
+[07/Jul/2016 09:06:28] "GET http://www.baidu.com/ HTTP/1.1" 404 1660
+[07/Jul/2016 09:06:49] "GET / HTTP/1.1" 200 413
+[07/Jul/2016 09:08:53] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:08:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:08:53] "GET /static/css/myblog.css HTTP/1.1" 200 310
+[07/Jul/2016 09:09:49] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:09:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:09:49] "GET /static/css/myblog.css HTTP/1.1" 200 339
+[07/Jul/2016 09:09:49] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:09:50] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:09:50] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:10:04] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:10:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:10:04] "GET /static/css/myblog.css HTTP/1.1" 200 339
+[07/Jul/2016 09:10:16] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:10:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:10:16] "GET /static/css/myblog.css HTTP/1.1" 200 339
+[07/Jul/2016 09:10:37] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:10:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:10:37] "GET /static/css/myblog.css HTTP/1.1" 200 363
+[07/Jul/2016 09:11:16] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:11:16] "GET /static/css/myblog.css HTTP/1.1" 200 380
+[07/Jul/2016 09:11:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:11:39] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:12:02] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:12:03] "GET /static/css/myblog.css HTTP/1.1" 200 404
+[07/Jul/2016 09:12:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:12:40] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:12:40] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:12:40] "GET /static/css/myblog.css HTTP/1.1" 200 403
+[07/Jul/2016 09:12:58] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:12:58] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:12:58] "GET /static/css/myblog.css HTTP/1.1" 200 404
+[07/Jul/2016 09:14:28] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:14:29] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:14:29] "GET /static/css/myblog.css HTTP/1.1" 200 429
+[07/Jul/2016 09:15:31] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:15:31] "GET /static/css/myblog.css HTTP/1.1" 200 483
+[07/Jul/2016 09:15:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:16:06] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:16:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:16:06] "GET /static/css/myblog.css HTTP/1.1" 200 483
+[07/Jul/2016 09:17:01] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:17:01] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:17:01] "GET /static/css/myblog.css HTTP/1.1" 200 546
+[07/Jul/2016 09:17:49] "GET / HTTP/1.1" 200 717
+[07/Jul/2016 09:17:49] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:17:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:18:22] "GET / HTTP/1.1" 200 674
+[07/Jul/2016 09:18:23] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:18:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:19:56] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:19:57] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:19:57] "GET /static/css/myblog.css HTTP/1.1" 200 549
+[07/Jul/2016 09:20:05] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:20:05] "GET /static/css/myblog.css HTTP/1.1" 200 549
+[07/Jul/2016 09:20:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:20:33] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:20:33] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:20:33] "GET /static/css/myblog.css HTTP/1.1" 200 585
+[07/Jul/2016 09:20:56] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:20:56] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:20:56] "GET /static/css/myblog.css HTTP/1.1" 200 588
+[07/Jul/2016 09:22:34] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:22:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:22:35] "GET /static/css/myblog.css HTTP/1.1" 200 610
+[07/Jul/2016 09:23:58] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:23:58] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:23:58] "GET /static/css/myblog.css HTTP/1.1" 200 588
+[07/Jul/2016 09:25:00] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:25:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:25:00] "GET /static/css/myblog.css HTTP/1.1" 200 609
+[07/Jul/2016 09:25:32] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:25:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:25:33] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:25:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:25:34] "GET /static/css/myblog.css HTTP/1.1" 200 610
+[07/Jul/2016 09:25:35] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:25:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:25:35] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:26:01] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:26:01] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:26:01] "GET /static/css/myblog.css HTTP/1.1" 200 589
+[07/Jul/2016 09:29:51] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:29:54] "GET /static/css/myblog.css HTTP/1.1" 200 555
+[07/Jul/2016 09:29:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:31:56] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:31:56] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:31:56] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:31:58] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:31:58] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:31:59] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:32:05] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:32:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:32:05] "GET /static/css/myblog.css HTTP/1.1" 200 573
+[07/Jul/2016 09:32:42] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:32:42] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:32:48] "GET /static/css/myblog.css HTTP/1.1" 200 593
+[07/Jul/2016 09:33:09] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:33:09] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:33:09] "GET /static/css/myblog.css HTTP/1.1" 200 592
+[07/Jul/2016 09:33:24] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:33:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:33:25] "GET /static/css/myblog.css HTTP/1.1" 200 538
+[07/Jul/2016 09:33:41] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:33:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:33:41] "GET /static/css/myblog.css HTTP/1.1" 200 538
+[07/Jul/2016 09:33:57] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:33:57] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:33:57] "GET /static/css/myblog.css HTTP/1.1" 200 554
+[07/Jul/2016 09:37:23] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:37:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:37:24] "GET /static/css/myblog.css HTTP/1.1" 200 571
+[07/Jul/2016 09:38:01] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:38:01] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:38:01] "GET /static/css/myblog.css HTTP/1.1" 200 579
+[07/Jul/2016 09:38:28] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:38:28] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:38:28] "GET /static/css/myblog.css HTTP/1.1" 200 596
+[07/Jul/2016 09:38:45] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:38:45] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:38:45] "GET /static/css/myblog.css HTTP/1.1" 200 594
+[07/Jul/2016 09:39:26] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:39:26] "GET /static/css/myblog.css HTTP/1.1" 200 554
+[07/Jul/2016 09:39:26] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:44:32] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:44:33] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 09:44:33] "GET /favicon.ico HTTP/1.1" 404 2787
+[07/Jul/2016 09:46:49] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:46:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:46:49] "GET /static/css/myblog.css HTTP/1.1" 200 556
+[07/Jul/2016 09:47:03] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:47:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:47:03] "GET /static/css/myblog.css HTTP/1.1" 200 575
+[07/Jul/2016 09:47:12] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:47:13] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:47:13] "GET /static/css/myblog.css HTTP/1.1" 200 576
+[07/Jul/2016 09:48:29] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:48:29] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:48:29] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:48:31] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:48:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:48:31] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:49:01] code 400, message Bad HTTP/0.9 request type ('\xec\xb1\xa4t4\xb8c\xddC\xac\x86_\x13N[\x8bC')
+[07/Jul/2016 09:49:01] 
+[07/Jul/2016 09:49:02] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:49:03] "GET /static/css/myblog.css HTTP/1.1" 200 556
+[07/Jul/2016 09:49:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:51:33] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:51:33] "GET /static/css/myblog.css HTTP/1.1" 200 580
+[07/Jul/2016 09:51:33] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:53:05] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:53:06] "GET /static/css/myblog.css HTTP/1.1" 200 607
+[07/Jul/2016 09:53:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:53:29] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:53:30] "GET /static/css/myblog.css HTTP/1.1" 200 589
+[07/Jul/2016 09:53:30] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:53:50] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:53:50] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:53:50] "GET /static/css/myblog.css HTTP/1.1" 200 589
+[07/Jul/2016 09:55:51] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:55:51] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:56:56] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:56:56] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:57:01] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:57:01] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:57:01] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:57:01] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:57:01] "GET /static/css/myblog.css HTTP/1.1" 200 589
+[07/Jul/2016 09:57:01] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:57:01] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:57:01] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:57:50] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:57:50] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:57:50] "GET /static/css/myblog.css HTTP/1.1" 200 617
+[07/Jul/2016 09:58:12] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:12] "GET /static/css/myblog.css HTTP/1.1" 200 617
+[07/Jul/2016 09:58:16] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:16] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:28] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:28] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:28] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:29] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:29] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:29] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:30] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:30] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:30] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:31] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:31] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:31] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:31] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:32] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:32] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 09:58:32] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:32] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 09:58:32] "GET /static/css/myblog.css HTTP/1.1" 200 617
+[07/Jul/2016 09:58:33] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 09:58:33] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[07/Jul/2016 09:58:33] "GET /static/css/myblog.css HTTP/1.1" 200 617
+[07/Jul/2016 10:00:52] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 10:00:52] "GET /static/css/myblog.css HTTP/1.1" 200 617
+[07/Jul/2016 10:00:52] "GET /static/css/reset.css HTTP/1.1" 200 7279
+Not Found: /favicon.ico
+[07/Jul/2016 10:00:53] "GET /favicon.ico HTTP/1.1" 404 2787
+[07/Jul/2016 10:02:26] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 10:02:56] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Jul/2016 10:03:14] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 10:03:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 10:03:16] "GET /static/css/myblog.css HTTP/1.1" 200 616
+[07/Jul/2016 10:03:31] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 10:03:32] "GET /?_t_t_t=0.7038345872424543 HTTP/1.1" 200 662
+[07/Jul/2016 10:03:32] "GET /static/css/myblog.css HTTP/1.1" 200 616
+[07/Jul/2016 10:04:41] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 10:04:41] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 10:04:43] "GET / HTTP/1.1" 200 662
+[07/Jul/2016 10:04:43] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 10:04:44] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 10:15:17] "GET /admin HTTP/1.1" 301 0
+[07/Jul/2016 10:15:17] "GET /admin/ HTTP/1.1" 302 0
+[07/Jul/2016 10:15:17] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[07/Jul/2016 10:15:17] "GET /admin/ HTTP/1.1" 302 0
+[07/Jul/2016 10:15:18] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[07/Jul/2016 10:15:18] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[07/Jul/2016 10:15:18] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[07/Jul/2016 10:15:19] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[07/Jul/2016 10:15:20] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[07/Jul/2016 10:15:20] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[07/Jul/2016 10:15:25] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[07/Jul/2016 10:15:26] "GET /admin/ HTTP/1.1" 200 4995
+[07/Jul/2016 10:15:26] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[07/Jul/2016 10:15:26] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[07/Jul/2016 10:15:26] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[07/Jul/2016 10:15:26] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[07/Jul/2016 10:15:34] "GET /admin/blog/article/ HTTP/1.1" 200 4563
+[07/Jul/2016 10:15:35] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[07/Jul/2016 10:15:35] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+[07/Jul/2016 10:15:35] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[07/Jul/2016 10:15:47] "POST /admin/blog/article/ HTTP/1.1" 200 2551
+[07/Jul/2016 10:15:50] "POST /admin/blog/article/ HTTP/1.1" 302 0
+[07/Jul/2016 10:15:51] "GET /admin/blog/article/ HTTP/1.1" 200 3292
+[07/Jul/2016 10:15:51] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[07/Jul/2016 10:15:51] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[07/Jul/2016 10:15:53] "GET /admin/blog/article/add/ HTTP/1.1" 200 8634
+[07/Jul/2016 10:15:53] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[07/Jul/2016 10:15:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[07/Jul/2016 10:15:53] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[07/Jul/2016 10:15:54] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[07/Jul/2016 10:18:26] "POST /admin/blog/article/add/ HTTP/1.1" 302 0
+[07/Jul/2016 10:18:27] "GET /admin/blog/article/ HTTP/1.1" 200 4527
+[07/Jul/2016 10:18:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[07/Jul/2016 10:18:38] "GET /admin/blog/article/add/ HTTP/1.1" 200 8634
+[07/Jul/2016 10:18:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[07/Jul/2016 10:18:53] "POST /admin/blog/article/add/ HTTP/1.1" 302 0
+[07/Jul/2016 10:18:53] "GET /admin/blog/article/ HTTP/1.1" 200 4742
+[07/Jul/2016 10:18:53] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[07/Jul/2016 10:19:22] "GET /admin/blog/article/add/ HTTP/1.1" 200 8634
+[07/Jul/2016 10:19:22] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[07/Jul/2016 10:19:37] "POST /admin/blog/article/add/ HTTP/1.1" 302 0
+[07/Jul/2016 10:19:38] "GET /admin/blog/article/ HTTP/1.1" 200 4980
+[07/Jul/2016 10:19:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+-----------------------------------
+Exception happened during processing of request from ('101.226.68.141', 42904)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 42988)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 51715)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 42802)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 54385)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('140.207.54.158', 49940)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 38691)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('140.207.54.158', 47239)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('101.226.68.141', 45800)
+----------------------------------------
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 10:35:50
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 10:39:24] "HEAD / HTTP/1.1" 200 0
+Not Found: /wp/
+[07/Jul/2016 10:39:24] "HEAD /wp/ HTTP/1.1" 404 0
+Not Found: /wordpress/
+[07/Jul/2016 10:39:25] "HEAD /wordpress/ HTTP/1.1" 404 0
+[07/Jul/2016 10:39:26] "HEAD /blog/ HTTP/1.1" 200 0
+Not Found: /test/
+[07/Jul/2016 10:39:26] "HEAD /test/ HTTP/1.1" 404 0
+Not Found: /blogs/
+[07/Jul/2016 10:39:27] "HEAD /blogs/ HTTP/1.1" 404 0
+Not Found: /joom/
+[07/Jul/2016 10:39:27] "HEAD /joom/ HTTP/1.1" 404 0
+Not Found: /joomla/
+[07/Jul/2016 10:39:28] "HEAD /joomla/ HTTP/1.1" 404 0
+Not Found: /drupal/
+[07/Jul/2016 10:39:29] "HEAD /drupal/ HTTP/1.1" 404 0
+Not Found: /site/
+[07/Jul/2016 10:39:29] "HEAD /site/ HTTP/1.1" 404 0
+Not Found: /1/
+[07/Jul/2016 10:39:30] "HEAD /1/ HTTP/1.1" 404 0
+Not Found: /old/
+[07/Jul/2016 10:39:30] "HEAD /old/ HTTP/1.1" 404 0
+Not Found: /new/
+[07/Jul/2016 10:39:31] "HEAD /new/ HTTP/1.1" 404 0
+Not Found: /shop/
+[07/Jul/2016 10:39:32] "HEAD /shop/ HTTP/1.1" 404 0
+Not Found: /portal/
+[07/Jul/2016 10:39:32] "HEAD /portal/ HTTP/1.1" 404 0
+[07/Jul/2016 10:44:12] "GET / HTTP/1.1" 200 738
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 10:38:19
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 10:45:33] "GET / HTTP/1.1" 200 738
+[07/Jul/2016 10:45:33] "GET / HTTP/1.1" 200 738
+[07/Jul/2016 10:45:34] "GET /static/css/myblog.css HTTP/1.1" 200 617
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 10:44:29
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '^/$' [name='first'] has a regex beginning with a '/'. Remove this slash as it is unnecessary.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+July 07, 2016 - 10:48:24
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '^/$' [name='first'] has a regex beginning with a '/'. Remove this slash as it is unnecessary.
+
+System check identified 1 issue (0 silenced).
+Not Found: /
+[07/Jul/2016 10:48:40] "GET / HTTP/1.1" 404 2648
+[07/Jul/2016 10:48:52] "GET /static/css/myblog.css HTTP/1.1" 200 617
+Not Found: /
+[07/Jul/2016 10:49:03] "GET / HTTP/1.1" 404 2648
+Performing system checks...
+
+July 07, 2016 - 10:48:38
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 159, in get
+    self.object_list = self.get_queryset()
+  File "/myblog/blog/views.py", line 31, in get_queryset
+    article.body = markdown2.markdown(article.body, )
+NameError: global name 'article' is not defined
+[07/Jul/2016 10:49:28] "GET / HTTP/1.1" 500 74472
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 159, in get
+    self.object_list = self.get_queryset()
+  File "/myblog/blog/views.py", line 31, in get_queryset
+    article.body = markdown2.markdown(article.body, )
+NameError: global name 'article' is not defined
+[07/Jul/2016 10:50:45] "GET / HTTP/1.1" 500 74472
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 159, in get
+    self.object_list = self.get_queryset()
+  File "/myblog/blog/views.py", line 31, in get_queryset
+    article.body = markdown2.markdown(article.body, )
+NameError: global name 'article' is not defined
+[07/Jul/2016 10:51:02] "GET / HTTP/1.1" 500 74472
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 10:49:28
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 159, in get
+    self.object_list = self.get_queryset()
+  File "/myblog/blog/views.py", line 31, in get_queryset
+    article.body = markdown2.markdown(first_article.body, )
+NameError: global name 'article' is not defined
+[07/Jul/2016 10:51:44] "GET / HTTP/1.1" 500 74479
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 10:51:39
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 10:53:53] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 10:53:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 10:53:53] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 10:56:23] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 10:56:24] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 10:56:24] "GET /static/css/myblog.css HTTP/1.1" 200 577
+[07/Jul/2016 10:57:51] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 10:57:51] "GET /static/css/myblog.css HTTP/1.1" 200 597
+[07/Jul/2016 10:57:51] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 10:59:07] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 10:59:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 10:59:07] "GET /static/css/myblog.css HTTP/1.1" 200 653
+[07/Jul/2016 11:00:03] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:00:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:00:04] "GET /static/css/myblog.css HTTP/1.1" 200 680
+[07/Jul/2016 11:00:28] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:00:29] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:00:29] "GET /static/css/myblog.css HTTP/1.1" 200 690
+[07/Jul/2016 11:01:57] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:01:57] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:01:57] "GET /static/css/myblog.css HTTP/1.1" 200 737
+[07/Jul/2016 11:02:13] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:02:13] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:02:13] "GET /static/css/myblog.css HTTP/1.1" 200 761
+[07/Jul/2016 11:02:14] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:02:14] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:02:14] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 11:03:25] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:03:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:03:25] "GET /static/css/myblog.css HTTP/1.1" 200 761
+[07/Jul/2016 11:05:50] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:05:50] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:05:50] "GET /static/css/myblog.css HTTP/1.1" 200 734
+[07/Jul/2016 11:06:32] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:06:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:06:32] "GET /static/css/myblog.css HTTP/1.1" 200 740
+[07/Jul/2016 11:07:21] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:07:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:07:21] "GET /static/css/myblog.css HTTP/1.1" 200 732
+[07/Jul/2016 11:07:53] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:07:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:07:53] "GET /static/css/myblog.css HTTP/1.1" 200 714
+[07/Jul/2016 11:08:34] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:08:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 11:08:34] "GET /static/css/myblog.css HTTP/1.1" 200 751
+[07/Jul/2016 11:09:02] "GET / HTTP/1.1" 200 7847
+[07/Jul/2016 11:09:02] "GET /static/css/myblog.css HTTP/1.1" 200 752
+[07/Jul/2016 11:09:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 10:53:28
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 353, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 345, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 348, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 54, in execute
+    super(Command, self).execute(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 399, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 93, in handle
+    self.run(**options)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 102, in run
+    autoreload.main(self.inner_run, None, options)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 333, in main
+    reloader(wrapped_main_func, args, kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 299, in python_reloader
+    reloader_thread()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 275, in reloader_thread
+    change = fn()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 205, in code_changed
+    stat = os.stat(filename)
+OSError: [Errno 2] No such file or directory: '/myblog/blog/views.py'
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 11:17:30] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 11:17:30] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 11:17:30] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 90, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 80, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 62, in select_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Could not parse the remainder: '{markdown' from 'article_first.body{markdown'
+[07/Jul/2016 11:21:17] "GET / HTTP/1.1" 500 111184
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 90, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 80, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 62, in select_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid filter: 'markdown'
+[07/Jul/2016 11:22:22] "GET / HTTP/1.1" 500 110649
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+Error: You don't have permission to access that port.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 12:47:43] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:47:43] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:47:43] "GET /static/css/myblog.css HTTP/1.1" 200 752
+Not Found: /favicon.ico
+[07/Jul/2016 12:47:44] "GET /favicon.ico HTTP/1.1" 404 2680
+[07/Jul/2016 12:49:03] "GET / HTTP/1.1" 200 6024
+Not Found: /favicon.ico
+[07/Jul/2016 12:49:03] "GET /favicon.ico HTTP/1.1" 404 2680
+[07/Jul/2016 12:49:23] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:49:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:49:23] "GET /static/css/myblog.css HTTP/1.1" 200 754
+[07/Jul/2016 12:49:37] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:49:37] "GET /static/css/myblog.css HTTP/1.1" 200 754
+[07/Jul/2016 12:49:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:50:37] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:50:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:50:37] "GET /static/css/myblog.css HTTP/1.1" 200 755
+[07/Jul/2016 12:51:19] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:51:19] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:51:19] "GET /static/css/myblog.css HTTP/1.1" 200 763
+[07/Jul/2016 12:51:31] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:51:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:51:32] "GET /static/css/myblog.css HTTP/1.1" 200 757
+[07/Jul/2016 12:51:32] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:51:33] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:51:33] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 12:53:38] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:53:38] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:53:38] "GET /static/css/myblog.css HTTP/1.1" 200 739
+[07/Jul/2016 12:53:40] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:53:40] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 12:53:40] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:54:20] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:54:21] "GET /static/css/myblog.css HTTP/1.1" 200 764
+[07/Jul/2016 12:54:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 12:47:33
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 12:55:20] "GET / HTTP/1.1" 200 4804
+[07/Jul/2016 12:55:20] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 12:55:20] "GET /static/css/reset.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 12:55:34] "GET /favicon.ico HTTP/1.1" 404 2680
+[07/Jul/2016 12:55:52] "GET / HTTP/1.1" 200 4804
+[07/Jul/2016 12:55:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 12:55:52] "GET /static/css/myblog.css HTTP/1.1" 200 764
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 12:55:19
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 12:57:08] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 12:57:08] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 12:57:08] "GET /static/css/reset.css HTTP/1.1" 304 0
+Not Found: /http:/www.sbjudge1.com/azenv.php
+[07/Jul/2016 12:57:53] "GET http://www.sbjudge1.com/azenv.php HTTP/1.0" 404 1699
+Not Found: /www.alipay.com:443
+[07/Jul/2016 12:57:54] "CONNECT www.alipay.com:443 HTTP/1.0" 404 1661
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 174, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 172, in get_response
+    response = response.render()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 160, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 135, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 90, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/response.py", line 80, in resolve_template
+    return select_template(template, using=self.using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 62, in select_template
+    return engine.get_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'custom_markdown' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+future
+i18n
+l10n
+log
+static
+staticfiles
+tz
+[07/Jul/2016 13:01:37] "GET / HTTP/1.1" 500 111666
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 12:57:08
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 13:04:27] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 13:04:27] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 13:04:27] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:08:15] "GET / HTTP/1.1" 200 6024
+[07/Jul/2016 13:17:28] "GET / HTTP/1.1" 200 5234
+[07/Jul/2016 13:17:28] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[07/Jul/2016 13:17:29] "GET /favicon.ico HTTP/1.1" 404 2680
+Not Found: /manager/html
+[07/Jul/2016 13:18:29] "GET /manager/html HTTP/1.1" 404 2681
+[07/Jul/2016 13:31:10] "GET / HTTP/1.1" 200 5234
+[07/Jul/2016 13:31:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:31:10] "GET /static/css/myblog.css HTTP/1.1" 200 764
+[07/Jul/2016 13:32:32] "GET / HTTP/1.1" 200 5234
+[07/Jul/2016 13:32:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:32:32] "GET /static/css/myblog.css HTTP/1.1" 200 736
+[07/Jul/2016 13:32:53] "GET / HTTP/1.1" 200 5234
+[07/Jul/2016 13:32:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:32:53] "GET /static/css/myblog.css HTTP/1.1" 200 736
+[07/Jul/2016 13:33:17] "GET / HTTP/1.1" 200 5234
+[07/Jul/2016 13:33:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:33:17] "GET /static/css/myblog.css HTTP/1.1" 200 742
+[07/Jul/2016 13:33:34] "GET / HTTP/1.1" 200 5234
+[07/Jul/2016 13:33:34] "GET /static/css/myblog.css HTTP/1.1" 200 742
+[07/Jul/2016 13:33:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:33:53] "GET / HTTP/1.1" 200 5234
+[07/Jul/2016 13:33:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:33:53] "GET /static/css/myblog.css HTTP/1.1" 200 742
+[07/Jul/2016 13:34:25] "GET / HTTP/1.1" 200 5234
+[07/Jul/2016 13:34:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:34:25] "GET /static/css/myblog.css HTTP/1.1" 200 742
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 13:48:17] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Jul/2016 13:49:44] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:49:44] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 13:49:44] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:50:12] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:50:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:50:12] "GET /static/css/myblog.css HTTP/1.1" 200 742
+[07/Jul/2016 13:51:12] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:51:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:51:12] "GET /static/css/myblog.css HTTP/1.1" 200 792
+[07/Jul/2016 13:51:47] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:51:48] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:51:48] "GET /static/css/myblog.css HTTP/1.1" 200 791
+[07/Jul/2016 13:52:12] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:52:12] "GET /static/css/myblog.css HTTP/1.1" 200 791
+[07/Jul/2016 13:52:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:52:59] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:53:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:53:00] "GET /static/css/myblog.css HTTP/1.1" 200 815
+[07/Jul/2016 13:55:04] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:55:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:55:05] "GET /static/css/myblog.css HTTP/1.1" 200 854
+[07/Jul/2016 13:55:32] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 13:56:07] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:56:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:56:07] "GET /static/css/myblog.css HTTP/1.1" 200 850
+[07/Jul/2016 13:57:10] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 13:57:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 13:57:10] "GET /static/css/myblog.css HTTP/1.1" 200 845
+[07/Jul/2016 14:01:32] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:01:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:01:32] "GET /static/css/myblog.css HTTP/1.1" 200 845
+[07/Jul/2016 14:07:01] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:07:02] "GET /static/css/myblog.css HTTP/1.1" 200 857
+[07/Jul/2016 14:07:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:08:04] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:08:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:08:04] "GET /static/css/myblog.css HTTP/1.1" 200 818
+[07/Jul/2016 14:08:23] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:08:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:08:23] "GET /static/css/myblog.css HTTP/1.1" 200 809
+[07/Jul/2016 14:08:25] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:08:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:08:25] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 14:08:28] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:08:28] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:08:28] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 14:09:26] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:09:26] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:09:26] "GET /static/css/myblog.css HTTP/1.1" 200 820
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 14:09:33] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Jul/2016 14:11:52] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:11:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:11:52] "GET /static/css/myblog.css HTTP/1.1" 200 886
+[07/Jul/2016 14:13:04] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:13:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:13:04] "GET /static/css/myblog.css HTTP/1.1" 200 916
+[07/Jul/2016 14:13:16] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:13:16] "GET /static/css/myblog.css HTTP/1.1" 200 921
+[07/Jul/2016 14:13:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:13:32] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:13:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:13:32] "GET /static/css/myblog.css HTTP/1.1" 200 922
+[07/Jul/2016 14:15:43] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:15:43] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:15:43] "GET /static/css/myblog.css HTTP/1.1" 200 949
+[07/Jul/2016 14:15:47] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:15:47] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:15:47] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 14:18:02] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:18:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:18:02] "GET /static/css/myblog.css HTTP/1.1" 200 958
+[07/Jul/2016 14:19:05] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:19:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:19:05] "GET /static/css/myblog.css HTTP/1.1" 200 960
+[07/Jul/2016 14:19:26] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:19:26] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:19:26] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 14:19:31] "HEAD / HTTP/1.0" 200 0
+[07/Jul/2016 14:20:01] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:20:01] "GET /static/css/myblog.css HTTP/1.1" 200 960
+[07/Jul/2016 14:20:01] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:21:13] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:21:13] "GET /static/css/myblog.css HTTP/1.1" 200 960
+[07/Jul/2016 14:21:13] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:21:17] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:21:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:21:17] "GET /static/css/myblog.css HTTP/1.1" 200 960
+[07/Jul/2016 14:22:35] "GET / HTTP/1.1" 200 5235
+[07/Jul/2016 14:22:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:22:35] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 13:04:24
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+Not Found: /robots.txt
+[07/Jul/2016 14:29:44] "GET /robots.txt HTTP/1.1" 404 2677
+[07/Jul/2016 14:29:44] "GET / HTTP/1.1" 200 5311
+[07/Jul/2016 14:30:10] "GET /static/css/myblog.css HTTP/1.1" 200 960
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 14:29:20
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[07/Jul/2016 14:33:15] "GET / HTTP/1.1" 200 5311
+[07/Jul/2016 14:33:15] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 14:33:15] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:35:33] "GET / HTTP/1.1" 200 5311
+[07/Jul/2016 14:35:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 14:35:34] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 15:32:05] "GET / HTTP/1.1" 200 5311
+[07/Jul/2016 15:32:05] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[07/Jul/2016 15:32:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[07/Jul/2016 15:36:13] "GET / HTTP/1.1" 200 5311
+Not Found: /phpMyAdmin
+[07/Jul/2016 16:18:52] "GET /phpMyAdmin HTTP/1.1" 404 2675
+Not Found: /phpMyAdmin
+[07/Jul/2016 17:33:08] "GET /phpMyAdmin HTTP/1.1" 404 2675
+[07/Jul/2016 18:07:04] "GET / HTTP/1.1" 200 5311
+[07/Jul/2016 18:07:04] "GET / HTTP/1.1" 200 5311
+Not Found: //console/j_security_check
+[07/Jul/2016 18:07:04] "GET //console/j_security_check HTTP/1.1" 404 2720
+Not Found: /http:/www.baidu.com/robots.txt
+[07/Jul/2016 18:25:37] "GET http://www.baidu.com/robots.txt HTTP/1.1" 404 1690
+Not Found: /phpMyAdmin
+[07/Jul/2016 18:37:06] "GET /phpMyAdmin HTTP/1.1" 404 2675
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 18:37:55] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 18:41:18] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/testp1.piwo.pila.pl/testproxy.php
+[07/Jul/2016 19:14:55] "GET http://testp1.piwo.pila.pl/testproxy.php HTTP/1.1" 404 1723
+Not Found: /http:/wap.ip138.com/
+[07/Jul/2016 19:21:14] "HEAD http://wap.ip138.com/ HTTP/1.1" 404 0
+Not Found: /http:/119.90.40.16:8090/
+[07/Jul/2016 20:36:55] "GET http://119.90.40.16:8090/ HTTP/1.1" 404 1676
+[07/Jul/2016 21:23:15] "GET / HTTP/1.1" 200 5311
+Not Found: /robots.txt
+[07/Jul/2016 22:12:54] "GET /robots.txt HTTP/1.1" 404 2673
+[07/Jul/2016 22:12:54] "GET / HTTP/1.1" 200 5311
+Not Found: /http:/maxcd03-dev01.chinacloudapp.cn/index.php
+[07/Jul/2016 22:54:11] "GET http://maxcd03-dev01.chinacloudapp.cn/index.php HTTP/1.0" 404 1734
+Not Found: /http:/www.baidu.com/
+[07/Jul/2016 23:05:14] "GET http://www.baidu.com/ HTTP/1.1" 404 1660
+[07/Jul/2016 23:06:38] "GET / HTTP/1.1" 200 5311
+[07/Jul/2016 23:12:04] "GET / HTTP/1.1" 200 5311
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 23:19:30] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 23:26:10] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Jul/2016 23:35:56] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /vip163mx01.mxmail.netease.com:25
+[08/Jul/2016 00:22:24] "CONNECT vip163mx01.mxmail.netease.com:25 HTTP/1.0" 404 1694
+[08/Jul/2016 01:08:55] "GET / HTTP/1.1" 200 5311
+[08/Jul/2016 01:08:55] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 01:08:55] "GET /static/css/myblog.css HTTP/1.1" 200 960
+Not Found: /favicon.ico
+[08/Jul/2016 01:08:55] "GET /favicon.ico HTTP/1.1" 404 2680
+[08/Jul/2016 01:12:23] "GET / HTTP/1.1" 200 5311
+[08/Jul/2016 01:58:10] "GET / HTTP/1.1" 200 5311
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 07, 2016 - 14:33:12
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 02:43:43] "GET / HTTP/1.1" 200 5661
+[08/Jul/2016 02:43:43] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 02:46:18] "GET / HTTP/1.1" 200 5522
+[08/Jul/2016 02:46:19] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 02:46:19] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 02:46:52] "GET / HTTP/1.1" 200 5522
+[08/Jul/2016 02:46:52] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 02:46:52] "GET /static/css/myblog.css HTTP/1.1" 200 960
+[08/Jul/2016 02:47:45] "GET / HTTP/1.1" 200 5522
+[08/Jul/2016 02:47:45] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 02:47:45] "GET /static/css/myblog.css HTTP/1.1" 200 960
+[08/Jul/2016 02:48:48] "GET / HTTP/1.1" 200 5522
+[08/Jul/2016 02:48:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 02:48:49] "GET /static/css/myblog.css HTTP/1.1" 200 1048
+[08/Jul/2016 02:50:50] "GET /admin HTTP/1.1" 301 0
+[08/Jul/2016 02:50:50] "GET /admin/ HTTP/1.1" 302 0
+[08/Jul/2016 02:50:51] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1679
+[08/Jul/2016 02:50:53] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[08/Jul/2016 02:50:53] "GET /admin/ HTTP/1.1" 200 6694
+[08/Jul/2016 02:50:59] "GET /admin/blog/article/ HTTP/1.1" 200 4823
+[08/Jul/2016 02:51:00] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 02:51:04] "GET /admin/blog/article/4/change/ HTTP/1.1" 200 13904
+[08/Jul/2016 02:51:04] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 02:40:52
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 02:55:35] "GET / HTTP/1.1" 200 5630
+[08/Jul/2016 02:55:35] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 02:55:29
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 02:57:04] "GET / HTTP/1.1" 200 5922
+[08/Jul/2016 02:57:04] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 02:57:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 02:59:35] "GET / HTTP/1.1" 200 6000
+[08/Jul/2016 02:59:35] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 02:59:35] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:01:15] "GET / HTTP/1.1" 200 6000
+[08/Jul/2016 03:01:15] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:01:15] "GET /static/css/myblog.css HTTP/1.1" 200 1078
+[08/Jul/2016 03:03:04] "GET / HTTP/1.1" 200 6000
+[08/Jul/2016 03:03:04] "GET /?_t_t_t=0.21757135284133255 HTTP/1.1" 200 6000
+[08/Jul/2016 03:03:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:03:05] "GET /static/css/myblog.css HTTP/1.1" 200 1078
+[08/Jul/2016 03:03:08] "GET / HTTP/1.1" 200 6000
+[08/Jul/2016 03:03:09] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:03:09] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:10:04] "GET / HTTP/1.1" 200 6202
+[08/Jul/2016 03:10:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:10:04] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:10:18] "GET / HTTP/1.1" 200 6201
+[08/Jul/2016 03:10:18] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:10:18] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:10:38] "GET / HTTP/1.1" 200 6199
+[08/Jul/2016 03:10:38] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:10:38] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:11:00] "GET / HTTP/1.1" 200 6199
+[08/Jul/2016 03:11:00] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:11:00] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:08] "GET / HTTP/1.1" 200 6195
+[08/Jul/2016 03:13:08] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:08] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:10] "GET / HTTP/1.1" 200 6195
+[08/Jul/2016 03:13:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:10] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:45] "GET / HTTP/1.1" 200 6192
+[08/Jul/2016 03:13:46] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:46] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:46] "GET / HTTP/1.1" 200 6192
+[08/Jul/2016 03:13:46] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:46] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:47] "GET / HTTP/1.1" 200 6192
+[08/Jul/2016 03:13:47] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:13:47] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:02] "GET / HTTP/1.1" 200 6192
+[08/Jul/2016 03:14:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:02] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:12] "GET / HTTP/1.1" 200 6195
+[08/Jul/2016 03:14:12] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:13] "GET / HTTP/1.1" 200 6195
+[08/Jul/2016 03:14:13] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:13] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:14] "GET / HTTP/1.1" 200 6195
+[08/Jul/2016 03:14:14] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:14] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:14] "GET / HTTP/1.1" 200 6195
+[08/Jul/2016 03:14:14] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:14] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:25] "GET / HTTP/1.1" 200 6192
+[08/Jul/2016 03:14:25] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:14:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+Not Found: /manager/html
+[08/Jul/2016 03:19:16] "GET /manager/html HTTP/1.1" 404 2681
+[08/Jul/2016 03:30:03] "GET / HTTP/1.1" 200 6190
+[08/Jul/2016 03:30:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:30:03] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:30:03] "GET / HTTP/1.1" 200 6190
+[08/Jul/2016 03:30:03] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:30:03] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:31:07] "GET / HTTP/1.1" 200 6191
+[08/Jul/2016 03:31:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:31:07] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:36:05] "GET / HTTP/1.1" 200 6191
+[08/Jul/2016 03:36:05] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:36:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:36:40] "GET / HTTP/1.1" 200 6191
+[08/Jul/2016 03:37:09] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:37:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:37:12] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:37:24] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:37:26] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:37:57] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:38:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:38:26] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:39:26] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:39:52] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:40:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:40:23] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:40:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:40:23] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:41:21] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:41:26] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:41:26] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:42:59] "GET / HTTP/1.1" 200 6175
+[08/Jul/2016 03:42:59] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:43:02] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 03:45:17] "GET / HTTP/1.1" 200 6175
+Not Found: /manager/html
+[08/Jul/2016 03:45:18] "GET /manager/html HTTP/1.1" 404 2681
+[08/Jul/2016 03:45:18] "GET /admin HTTP/1.1" 301 0
+[08/Jul/2016 03:45:19] "GET /admin HTTP/1.1" 301 0
+[08/Jul/2016 03:45:19] "GET /admin/ HTTP/1.1" 200 6694
+[08/Jul/2016 03:45:23] "GET /admin/blog/article/3/change/ HTTP/1.1" 200 12808
+[08/Jul/2016 03:45:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 03:45:25] "GET /admin/ HTTP/1.1" 200 6694
+[08/Jul/2016 03:45:32] "GET /admin/blog/article/3/change/ HTTP/1.1" 200 12808
+[08/Jul/2016 03:45:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Jul/2016 03:45:41] "GET /admin/ HTTP/1.1" 200 6694
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Jul/2016 03:47:09] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 02:57:03
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/generic/list.py", line 174, in get
+    context = self.get_context_data()
+  File "/myblog/blog/views.py", line 45, in get_context_data
+    mark = self.require_n_line(5, article.body)
+  File "/myblog/blog/views.py", line 40, in require_n_line
+    return require_n_line(self, n-1, text, m1)
+NameError: global name 'require_n_line' is not defined
+[08/Jul/2016 03:55:37] "GET / HTTP/1.1" 500 82392
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 03:55:29
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 03:57:09
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 03:57:22] "GET / HTTP/1.1" 200 6439
+[08/Jul/2016 03:57:22] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:57:22] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 08, 2016 - 03:57:18
+Django version 1.9.7, using settings 'myblog.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 03:57:51] "GET / HTTP/1.1" 200 6771
+[08/Jul/2016 03:57:51] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 03:57:51] "GET /static/css/myblog.css HTTP/1.1" 304 0

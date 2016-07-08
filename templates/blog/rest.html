@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% block rest %}
+    {% for article in article_rest %}
+      <li style="margin-left:10px">
+        <a href="#">{{ article.title }}</a>
+        <div class="hr"></div>
+        <p>{{article.abstract}}</p>
+      </li>
+    {% endfor%}
+{% endblock %}

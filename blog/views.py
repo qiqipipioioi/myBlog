@@ -21,6 +21,33 @@ class IndexView(ListView):
         return super(IndexView, self).get_context_data(**kwargs)
 
 
+class FirstView(ListView):
+    template_name = "blog/first.html"
+    context_object_name = "article_first"
+
+    def get_queryset(self):
+        article_list = Article.objects.filter(status='p').order_by('-last_modified_time')
+        first_article = article_list[0]
+        first_article.body = markdown2.markdown(first_article.body, 
+                extras=['fenced-code-blocks', "cuddled-lists", "metadata", "tables", "spoiler"])
+        return first_article
+
+    def require_n_line(self, n, text, m = 0):
+        m1 = text.find('\n', m+1)
+        if n == 1:
+            return m1
+        else:
+            return self.require_n_line(n-1, text, m1)
+
+    def get_context_data(self, **kwargs):
+        rest_articles = Article.objects.filter(status='p').order_by('-last_modified_time')[1:]
+        for article in rest_articles:
+            mark = self.require_n_line(10, article.body)
+            article.abstract = article.body[0:mark]
+        kwargs['article_rest'] = rest_articles
+        return super(FirstView, self).get_context_data(**kwargs)
+
+
 class ArticleDetailView(DetailView):
     model = Article
     # 指定视图获取哪个model

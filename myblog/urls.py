@@ -20,7 +20,7 @@ from django.conf import settings
 from blog import views
 
 urlpatterns = [
-    url(r'^$', views.IndexView.as_view()),
+#    url(r'^$', views.IndexView.as_view()),
     url(r'^admin/', admin.site.urls),
     url(r'', include('blog.urls', namespace='blog', app_name='blog')),
 ]
