@@ -55922,3 +55922,28 @@ Quit the server with CONTROL-C.
 [08/Jul/2016 03:57:51] "GET / HTTP/1.1" 200 6771
 [08/Jul/2016 03:57:51] "GET /static/css/reset.css HTTP/1.1" 304 0
 [08/Jul/2016 03:57:51] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 04:15:54] "GET / HTTP/1.1" 200 6771
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Jul/2016 04:17:08] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[08/Jul/2016 06:09:47] "GET / HTTP/1.1" 200 6771
+[08/Jul/2016 06:12:57] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 06:12:57] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Not Found: /manager/html
+[08/Jul/2016 06:17:28] "GET /manager/html HTTP/1.1" 404 2681
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 06:35:02] "GET / HTTP/1.1" 200 6771
+[08/Jul/2016 06:35:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 06:35:02] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 06:39:21] "GET / HTTP/1.1" 200 6771
+[08/Jul/2016 06:40:46] "GET / HTTP/1.1" 200 6771
+[08/Jul/2016 06:40:56] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 06:40:57] "GET /static/css/myblog.css HTTP/1.1" 304 0
+/myblog/blog/urls.py:10: RemovedInDjango110Warning: Support for string view arguments to url() is deprecated and will be removed in Django 1.10 (got django.views.static.serve). Pass the callable instead.
+  url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATIC_ROOT})
+
+[08/Jul/2016 07:01:05] "GET / HTTP/1.1" 200 6900
+[08/Jul/2016 07:01:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[08/Jul/2016 07:01:05] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[08/Jul/2016 07:05:33] "GET / HTTP/1.1" 200 6900
