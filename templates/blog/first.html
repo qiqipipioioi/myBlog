@@ -1,22 +1,26 @@
 {% extends 'main.html' %}
 {% block first %}
-<div class="first-article">
-    <h2><a href="#">{{article_first.title}}</a></h2>
-    <div class="publish-time">{{article_first.created_time|date:"n月j日,Y年"}}</div>
-    <div class='hr'></div>
-    <p>{{article_first.body|safe}}</p>
-</div>
-<div class="rest-article">
-    {% for article in article_rest %}
-        <li>
-            <h2>
-                <a href="#">{{ article.title }}</a>
-            </h2>
-            <div class="publish-time">{{article.created_time|date:"n月j日,Y年"}}</div>
-            <div class="hr"></div>
-            <p>{{article.abstract}}</p>
-        </li>
-   {% endfor%}
-</div>
-
+    {% load paginate_tags %}
+    {% paginate article_rest 3 %}
+    {% if current_page == 1%}
+        <div class="first-article">
+            <h2><a href="#">{{article_first.title}}</a></h2>
+            <div class="publish-time">{{article_first.created_time|date:"n月j日,Y年"}}</div>
+            <div class='hr'></div>
+            <p>{{article_first.body|safe}}</p>
+        </div>
+    {% endif %}
+    <div class="rest-article">
+        {% for article in page_article_list %}
+            <li>
+                <h2>
+                    <a href="#">{{ article.title }}</a>
+                </h2>
+                <div class="publish-time">{{article.created_time|date:"n月j日,Y年"}}</div>
+                <div class="hr"></div>
+                <p>{{article.abstract}}</p>
+            </li>
+       {% endfor%}   
+    </div>
+    {% include 'blog/pagination.html' %}
 {% endblock %}

@@ -28,8 +28,8 @@ class FirstView(ListView):
     def get_queryset(self):
         article_list = Article.objects.filter(status='p').order_by('-last_modified_time')
         first_article = article_list[0]
-        first_article.body = markdown2.markdown(first_article.body, 
-                extras=['fenced-code-blocks', "cuddled-lists", "metadata", "tables", "spoiler"])
+#        first_article.body = markdown2.markdown(first_article.body, 
+#                extras=['fenced-code-blocks', "cuddled-lists", "metadata", "tables", "spoiler"])
         return first_article
 
     def require_n_line(self, n, text, m = 0):
