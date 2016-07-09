@@ -9,16 +9,10 @@ import markdown2
 class IndexView(ListView):
     template_name = "blog/index.html"
     context_object_name = "article_list"
-
+    
     def get_queryset(self):
-        article_list = Article.objects.filter(status='p')
-        for article in article_list:
-            article.body = markdown2.markdown(article.body, )
+        article_list = Article.objects.filter(status='p').order_by('-created_time')
         return article_list
-
-    def get_context_data(self, **kwargs):
-        kwargs['category_list'] = Category.objects.all().order_by('name')
-        return super(IndexView, self).get_context_data(**kwargs)
 
 
 class FirstView(ListView):
@@ -33,7 +27,7 @@ class FirstView(ListView):
         return first_article
 
     def require_n_line(self, n, text, m = 0):
-        m1 = text.find('\n', m+1)
+        m1 = text.find('\r\n', m+1)
         if n == 1:
             return m1
         else:

@@ -1,20 +1,22 @@
 .main-wrapper
 {
-    background: #c39b8e;
-    overflow:hidden;
+    background: rgb(247, 247, 247);
 }
 
 .main-wrapper .content
 {
-    float: right;
-    background: #EAB9A9;
-    margin-right: 300px;
-    margin-left: 200px;
+    background: #fff;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 0px;
+    min-height: 1080px;
+    overflow:hidden;
+    position: relative;
 }
 
 .main-wrapper .nav
 {
-    width: 300px;
+    width: 250px;
     height: 9999px;
     background: #272323;
     text-align: center;
@@ -25,6 +27,18 @@
     top: 0px;
 }
 
+.inner-link
+{
+    padding-top: 30px;
+}
+
+.inner-link a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family:arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+}
+
 h1
 {
     font-size: 25px;
@@ -33,7 +47,7 @@ h1
 
 h2
 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: #670202;
     font-family:"Arial Black", "幼圆";
@@ -54,12 +68,18 @@ h2 a:hover
 p
 {
     font-size: 18px;
-    font-family: Georgia;
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
 }
 
 p > *
 {
     text-decoration: none;
+}
+
+.publish-time
+{
+    font-size: 18px;
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
 }
 
 li
@@ -106,11 +126,12 @@ li
     padding-top: 30px;
 }
 
-.tail
+footer
 {
     padding-top: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     min-height: 80px;
     background: #670202;
     text-align: center;
@@ -141,4 +162,45 @@ li
 .icon-next
 {
     float:right;
+}
+
+.article-index
+{
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+.article-index ul h2
+{
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.article-index ul li
+{
+    list-style-type: disc;
+    line-height: 30px;
+}
+
+.article-index ul li h3
+{
+    font-size: 25px;
+    color: #670202;
+    font-family:"Arial Black", "幼圆";
+}
+
+
+
+.article-index ul li h3 a
+{
+    text-decoration: none;
+    color: #670202;
+}
+
+.article-index ul li h3 a:hover
+{
+    text-decoration: none;
+    color: #e43434;
 }

@@ -1,13 +1,14 @@
 {% extends 'main.html' %}
 {% block content %}
-    {% for article in article_list %}
-      <li style="margin-left:10px">
-        <a href="{% url 'blog:detail' article.pk %}">{{ article.title }}</a>
-      </li>
-    {% endfor%}
-  <li class="cat-item">
-    {% for category in category_list %}
-      <a href="{% url 'blog:category' category.pk %}">{{ category.name }}</a>
-    {% endfor %}
-  </li>
+    <div class="article-index">
+        <ul><h2>文章列表</h2>
+       {% for article in article_list %}
+            <li>
+                <h3>
+                    <a href="{% url 'blog:detail' article.pk %}">{{ article.title }}</a>
+                </h3>
+            </li>
+       {% endfor%}
+       </ul>
+   </div>
 {% endblock %}

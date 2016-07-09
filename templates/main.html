@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/transitional.dtd">
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,17 @@
     <div class="main-wrapper">
         <div class="nav">
             <div>
-                <h1>TT's Cyberspace</h1>
+                <h1>CyberTpunk</h1>
                 <p>For Freedom!</p>
+            </div>
+            <div class="inner-link">
+                <a class="first-page" href="/">
+                    首页 <span class="icon-first-page"></span>
+                </a>
+                <span class="seperate">·</span>
+                <a class="list-page" href="/blog/index">
+                  <span class="icon-list-page"></span>列表
+                </a>
             </div>
             <div class="icon-group">
                 <li>github</li>
@@ -21,11 +30,11 @@
         </div>
         <div class="content">
             {% block content %}{% endblock %}
-            <div class="tail">
+            <footer>
                 <div class="copy">
                     &copy 2016 Tuxun by django
                 </div>
-            </div>
+            </footer>
         </div>
     </div>
 </body>
