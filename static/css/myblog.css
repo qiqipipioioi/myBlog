@@ -35,13 +35,20 @@ h2
 {
     font-size: 50px;
     text-align: center;
+    color: #670202;
+    font-family:"Arial Black", "幼圆";
 }
 
 h2 a
 {
     text-decoration: none;
-    color: #000;
-    font-family:"Arial Black", "幼圆";
+    color: #670202;
+}
+
+h2 a:hover
+{
+    text-decoration: none;
+    color: #e43434;
 }
 
 p
@@ -76,24 +83,28 @@ li
     padding-top: 100px;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 50px;
 }
 
 .hr
 {
     width: 100%;
     height: 2px;
-    background: rgba(0 ,0 ,0 ,0.2);
+    background: rgba(103, 2, 2, 0.45);
     margin:20px auto;
 }
 
 .rest-article
 {
-    padding-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 50px;
 }
 
+.rest-article li
+{
+    padding-top: 30px;
+}
 
 .tail
 {
@@ -110,4 +121,24 @@ li
     color: #fff;
     font-family: "Verdana";
     font-size: 15px;
+}
+
+.selectpage
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 50px;
+    text-align: center;
+}    
+
+.icon-previous
+{
+    float:left;
+}
+
+.icon-next
+{
+    float:right;
 }
