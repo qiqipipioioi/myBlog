@@ -246,3 +246,226 @@ Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
 [09/Jul/2016 17:45:07] "GET /blog/article/10 HTTP/1.1" 200 33676
 [09/Jul/2016 17:45:10] "GET /blog/article/9 HTTP/1.1" 200 29898
 [09/Jul/2016 17:45:11] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 17:46:04] "GET /blog/index HTTP/1.1" 200 2901
+[09/Jul/2016 17:46:04] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 17:46:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 17:50:09] "GET /blog/index HTTP/1.1" 200 2901
+[09/Jul/2016 17:50:09] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 17:50:09] "GET /static/css/myblog.css HTTP/1.1" 200 2660
+[09/Jul/2016 17:50:43] "GET /blog/article/8 HTTP/1.1" 200 17900
+[09/Jul/2016 17:50:43] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 17:50:48] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 17:50:50] "GET /blog/index HTTP/1.1" 200 2901
+[09/Jul/2016 17:51:33] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 17:51:33] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 18:02:16] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 18:02:16] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 18:02:16] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 18:07:29] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 18:07:29] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[09/Jul/2016 18:07:29] "GET /static/css/myblog.css HTTP/1.1" 200 2660
+Not Found: /favicon.ico
+[09/Jul/2016 18:07:30] "GET /favicon.ico HTTP/1.1" 404 2853
+[09/Jul/2016 18:07:40] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 18:07:40] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 18:07:40] "GET /static/css/myblog.css HTTP/1.1" 200 2660
+Not Found: /favicon.ico
+[09/Jul/2016 18:07:41] "GET /favicon.ico HTTP/1.1" 404 2853
+[09/Jul/2016 18:08:58] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 18:08:58] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 18:11:54] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 18:11:54] "GET / HTTP/1.1" 200 38820
+Not Found: /http:/www.baidu.com/
+[09/Jul/2016 18:35:45] "GET http://www.baidu.com/ HTTP/1.1" 404 1660
+[09/Jul/2016 20:00:50] code 400, message Bad request syntax ('\xe1\xad\x8d::\x8d\xf1\xcb\xd5\x8f9\xd0\x1eRr\xc5\xf9<G7\xa1\x03\xff\x1fF\xdb\xc7[\xe9\x91E\x03[\x1bu\xc2\xef\x00$3\x17\x18j\xf7\xdd\xcfCh\xdc+\xb6&-\xc0\xf3c1I\xe2\xf7\xf0\xfb/\xd1')
+[09/Jul/2016 20:00:50] 
+Not Found: /robots.txt
+[09/Jul/2016 20:11:19] "GET /robots.txt HTTP/1.1" 404 2846
+[09/Jul/2016 20:11:41] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 20:38:26] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 20:38:26] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 20:38:26] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 20:41:58] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 20:41:58] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 20:41:59] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 20:43:31] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 20:43:31] "GET / HTTP/1.1" 200 38820
+Not Found: //console/j_security_check
+[09/Jul/2016 20:43:31] "GET //console/j_security_check HTTP/1.1" 404 2893
+[09/Jul/2016 20:44:04] "GET /blog/article/8 HTTP/1.1" 200 17900
+[09/Jul/2016 20:44:57] "GET /blog/index HTTP/1.1" 200 2901
+[09/Jul/2016 20:45:45] "GET /blog/article/4 HTTP/1.1" 200 9655
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Jul/2016 21:08:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[09/Jul/2016 21:28:52] "GET / HTTP/1.1" 200 38820
+[09/Jul/2016 21:28:52] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[09/Jul/2016 21:28:54] "GET /favicon.ico HTTP/1.1" 404 2853
+[09/Jul/2016 21:33:59] "GET / HTTP/1.1" 200 38874
+[09/Jul/2016 21:33:59] "GET /static/css/myblog.css HTTP/1.1" 200 2701
+[09/Jul/2016 21:33:59] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:34:36] "GET / HTTP/1.1" 200 38874
+[09/Jul/2016 21:34:36] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:34:36] "GET /static/css/myblog.css HTTP/1.1" 200 2702
+[09/Jul/2016 21:35:05] "GET /?page=2 HTTP/1.1" 200 6222
+[09/Jul/2016 21:35:05] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 21:35:05] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:35:09] "GET /?page=3 HTTP/1.1" 200 7319
+[09/Jul/2016 21:35:10] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 21:35:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:35:13] "GET /blog/index HTTP/1.1" 200 2955
+[09/Jul/2016 21:35:13] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 21:35:13] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:37:32] "GET /blog/index HTTP/1.1" 200 2955
+[09/Jul/2016 21:37:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:37:32] "GET /static/css/myblog.css HTTP/1.1" 200 2702
+[09/Jul/2016 21:37:40] "GET /blog/article/4 HTTP/1.1" 200 9709
+[09/Jul/2016 21:37:40] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:37:40] "GET /static/css/myblog.css HTTP/1.1" 200 2702
+[09/Jul/2016 21:37:45] "GET / HTTP/1.1" 200 38874
+[09/Jul/2016 21:37:45] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 21:43:17] "GET / HTTP/1.1" 200 38874
+[09/Jul/2016 21:43:17] "GET / HTTP/1.1" 200 38874
+Not Found: //console/j_security_check
+[09/Jul/2016 21:43:17] "GET //console/j_security_check HTTP/1.1" 404 2893
+[09/Jul/2016 21:46:13] "GET /blog/index HTTP/1.1" 200 3095
+[09/Jul/2016 21:46:13] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:46:13] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 21:51:25] "GET /blog/index HTTP/1.1" 200 3141
+[09/Jul/2016 21:51:25] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:51:25] "GET /static/css/myblog.css HTTP/1.1" 200 2871
+[09/Jul/2016 21:52:00] "GET /blog/index HTTP/1.1" 200 3135
+[09/Jul/2016 21:52:01] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 21:52:02] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:52:44] "GET /blog/index HTTP/1.1" 200 3135
+[09/Jul/2016 21:52:44] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:52:44] "GET /static/css/myblog.css HTTP/1.1" 200 2891
+[09/Jul/2016 21:53:22] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 21:53:22] "GET / HTTP/1.1" 200 39054
+[09/Jul/2016 21:53:23] "GET /static/css/myblog.css HTTP/1.1" 304 0
+Not Found: /phpmyadmin
+[09/Jul/2016 21:53:57] "GET /phpmyadmin HTTP/1.1" 404 2848
+[09/Jul/2016 22:08:37] "GET / HTTP/1.1" 200 39120
+[09/Jul/2016 22:08:37] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:08:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:08:38] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Jul/2016 22:08:53] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[09/Jul/2016 22:09:02] "GET / HTTP/1.1" 200 39120
+[09/Jul/2016 22:09:03] "GET /static/css/myblog.css HTTP/1.1" 200 2891
+[09/Jul/2016 22:09:03] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[09/Jul/2016 22:09:22] "GET / HTTP/1.1" 200 39120
+[09/Jul/2016 22:09:30] "GET / HTTP/1.1" 200 39120
+[09/Jul/2016 22:09:54] "GET / HTTP/1.1" 200 39120
+Not Found: //static/icons/favicon.ico
+[09/Jul/2016 22:09:55] "GET //static/icons/favicon.ico HTTP/1.1" 404 2895
+[09/Jul/2016 22:09:55] "GET / HTTP/1.1" 200 39120
+[09/Jul/2016 22:09:56] "GET / HTTP/1.1" 200 39120
+Not Found: //static/icons/favicon.ico
+[09/Jul/2016 22:09:56] "GET /static/css/myblog.css HTTP/1.1" 200 2891
+[09/Jul/2016 22:09:56] "GET //static/icons/favicon.ico HTTP/1.1" 404 2895
+[09/Jul/2016 22:09:56] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[09/Jul/2016 22:09:57] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[09/Jul/2016 22:09:59] "GET / HTTP/1.1" 200 39120
+[09/Jul/2016 22:09:59] "GET / HTTP/1.1" 200 39120
+Not Found: //static/icons/favicon.ico
+[09/Jul/2016 22:09:59] "GET //static/icons/favicon.ico HTTP/1.1" 404 2895
+[09/Jul/2016 22:10:06] "GET / HTTP/1.1" 200 39120
+[09/Jul/2016 22:35:47] "GET / HTTP/1.1" 200 39260
+[09/Jul/2016 22:35:47] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:35:47] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:35:47] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 29063
+[09/Jul/2016 22:35:47] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 404 1818
+[09/Jul/2016 22:35:47] "GET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1" 404 1815
+[09/Jul/2016 22:35:48] "GET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1" 404 1812
+[09/Jul/2016 22:37:06] "GET / HTTP/1.1" 200 39260
+[09/Jul/2016 22:38:07] "GET / HTTP/1.1" 200 39276
+[09/Jul/2016 22:38:07] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:38:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:38:07] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:38:08] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 404 1818
+[09/Jul/2016 22:38:09] "GET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1" 404 1815
+[09/Jul/2016 22:38:09] "GET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1" 404 1812
+[09/Jul/2016 22:39:07] "GET / HTTP/1.1" 200 39222
+[09/Jul/2016 22:39:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:39:07] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:39:08] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:39:08] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 404 1818
+[09/Jul/2016 22:39:10] "GET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1" 404 1815
+[09/Jul/2016 22:39:11] "GET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1" 404 1812
+[09/Jul/2016 22:40:12] "GET / HTTP/1.1" 200 39276
+[09/Jul/2016 22:40:12] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:40:12] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:40:12] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:40:12] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+[09/Jul/2016 22:42:13] "GET / HTTP/1.1" 200 39282
+[09/Jul/2016 22:42:14] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:42:14] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:42:14] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:44:04] "GET / HTTP/1.1" 200 39361
+[09/Jul/2016 22:44:04] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:44:04] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:44:05] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:44:23] "GET / HTTP/1.1" 200 39354
+[09/Jul/2016 22:44:23] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:44:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:44:23] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:46:40] "HEAD / HTTP/1.1" 200 0
+Not Found: /wp/
+[09/Jul/2016 22:46:40] "HEAD /wp/ HTTP/1.1" 404 0
+Not Found: /wordpress/
+[09/Jul/2016 22:46:41] "HEAD /wordpress/ HTTP/1.1" 404 0
+Not Found: /blog/
+[09/Jul/2016 22:46:41] "HEAD /blog/ HTTP/1.1" 404 0
+Not Found: /test/
+[09/Jul/2016 22:46:42] "HEAD /test/ HTTP/1.1" 404 0
+Not Found: /blogs/
+[09/Jul/2016 22:46:42] "HEAD /blogs/ HTTP/1.1" 404 0
+Not Found: /joom/
+[09/Jul/2016 22:46:42] "HEAD /joom/ HTTP/1.1" 404 0
+Not Found: /joomla/
+[09/Jul/2016 22:46:43] "HEAD /joomla/ HTTP/1.1" 404 0
+Not Found: /drupal/
+[09/Jul/2016 22:46:43] "HEAD /drupal/ HTTP/1.1" 404 0
+Not Found: /site/
+[09/Jul/2016 22:46:43] "HEAD /site/ HTTP/1.1" 404 0
+Not Found: /1/
+[09/Jul/2016 22:46:44] "HEAD /1/ HTTP/1.1" 404 0
+Not Found: /old/
+[09/Jul/2016 22:46:44] "HEAD /old/ HTTP/1.1" 404 0
+Not Found: /new/
+[09/Jul/2016 22:46:45] "HEAD /new/ HTTP/1.1" 404 0
+Not Found: /shop/
+[09/Jul/2016 22:46:45] "HEAD /shop/ HTTP/1.1" 404 0
+Not Found: /portal/
+[09/Jul/2016 22:46:45] "HEAD /portal/ HTTP/1.1" 404 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Jul/2016 22:49:26] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[09/Jul/2016 22:49:58] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:49:58] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:49:58] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:49:58] "GET / HTTP/1.1" 200 39392
+[09/Jul/2016 22:51:17] "GET / HTTP/1.1" 200 39380
+[09/Jul/2016 22:51:17] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:51:17] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:51:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:52:41] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:52:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:52:41] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:52:41] "GET / HTTP/1.1" 200 39431
+[09/Jul/2016 22:55:55] "GET / HTTP/1.1" 200 39431
+[09/Jul/2016 22:55:55] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:55:55] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:55:55] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:56:32] "GET / HTTP/1.1" 200 39444
+[09/Jul/2016 22:56:32] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:56:32] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:56:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:57:53] "GET / HTTP/1.1" 200 39443
+[09/Jul/2016 22:57:53] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[09/Jul/2016 22:57:53] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:57:53] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:58:21] "GET / HTTP/1.1" 200 39445
+[09/Jul/2016 22:58:21] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[09/Jul/2016 22:58:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[09/Jul/2016 22:58:21] "GET /static/css/myblog.css HTTP/1.1" 304 0

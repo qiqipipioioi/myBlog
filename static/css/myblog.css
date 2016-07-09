@@ -18,7 +18,7 @@
 {
     width: 250px;
     height: 9999px;
-    background: #272323;
+    background: #3c0000;
     text-align: center;
     color: #fff;
     padding-top: 200px;
@@ -38,6 +38,20 @@
     color: #fff;
     font-family:arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
 }
+
+.links{
+    padding-top: 30px;
+}
+
+.links a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family:arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    margin: 0 10px;
+}
+
+    
 
 h1
 {
@@ -96,6 +110,11 @@ li
 {
     display: inline-block;
     padding: 8px;
+}
+
+.main-sec
+{
+    padding-bottom: 130px;
 }
 
 .first-article
