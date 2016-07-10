@@ -6,8 +6,8 @@
         <div class="first-article">
             <h2><a href="{% url 'blog:detail' article_first.pk %}">{{article_first.title}}</a></h2>
             <div class="publish-time">{{article_first.created_time|date:"n月j日，Y"}}</div>
-            <div class='hr'></div>
             <p>{{article_first.body|safe}}</p>
+            <div class='hr'></div>
         </div>
     {% endif %}
     <div class="rest-article">
@@ -17,8 +17,11 @@
                     <a href="{% url 'blog:detail' article.pk %}">{{ article.title }}</a>
                 </h2>
                 <div class="publish-time">{{article.created_time|date:"n月j日，Y"}}</div>
-                <div class="hr"></div>
                 <p>{{article.abstract}}</p>
+                <div class="read-more">
+                    <a class="more" href="{% url 'blog:detail' article.pk %}">Read More >></a>
+                </div>
+                <div class="hr"></div>
             </li>
        {% endfor%}   
     </div>

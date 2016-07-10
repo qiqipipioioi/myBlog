@@ -1,9 +1,8 @@
 {% extends 'main.html' %}
 {% block content %}
-    <div class="first-article">
+    <div class="detail-article">
         <h2>{{article.title}}</h2>
         <div class="publish-time">{{article.created_time|date:"n月j日,Y年"}}</div>
-        <div class='hr'></div>
         <p>{{article.body|safe}}</p>
     </div>
 {% endblock %}
