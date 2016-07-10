@@ -1,20 +1,18 @@
 <div id="pagenavi" class="selectpage">
     <div class="hr"></div>
     {% if page_article_list.has_previous%}
-        <span class="icon-previous">
         <a class="previous-page" href="?page={{ page_article_list.previous_page_number}}">上一页
+            <span class="icon-previous"></span>
         </a>
-        </span>
     {% else %}
-        <span class="icon-previous">&nbsp&nbsp&nbsp</span>
+        <span class="icon-none">&nbsp&nbsp&nbsp</span>
     {% endif %}
-        <span class="icon-current">{{ current_page }}</span>
+        <span class="icon-current">第{{ current_page }}页</span>
     {% if page_article_list.has_next %}
-        <span class="icon-next">
-        <a class="next-page" href="?page={{ page_article_list.next_page_number }}">
-            下一页</a>
-        </span>
+        <a class="next-page" href="?page={{ page_article_list.next_page_number }}">下一页
+            <span class="icon-next"></span>
+            </a>
     {% else %}
-        <span class="icon-next">&nbsp&nbsp&nbsp</span>
+        <span class="icon-none">&nbsp&nbsp&nbsp</span>
     {% endif %}
 </div>
