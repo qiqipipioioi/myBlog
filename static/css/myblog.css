@@ -238,7 +238,7 @@ a.previous-page
     float: left;
     text-decoration: none;
     color: #670202;
-    font-size: 18px;
+    font-size: 24px;
     font-family:"Arial Black", "幼圆";
     font-weight: bold;
 } 
@@ -260,7 +260,7 @@ a.next-page
     float:right;
     text-decoration: none;
     color: #670202;
-    font-size: 18px;
+    font-size: 24px;
     font-family:"Arial Black", "幼圆";
     font-weight: bold;
 } 
@@ -274,7 +274,7 @@ a.next-page:hover
 .icon-current
 {
     color: #670202;
-    font-size: 18px;
+    font-size: 24px;
     font-family:"Arial Black", "幼圆";
     font-weight: bold;
     letter-spacing: 3px;
