@@ -1870,3 +1870,500 @@ error: [Errno 104] Connection reset by peer
 [10/Jul/2016 13:34:04] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
 [10/Jul/2016 13:34:04] "GET /static/css/myblog.css HTTP/1.1" 304 0
 [10/Jul/2016 13:34:04] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/Jul/2016 13:37:59] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:37:59] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 13:37:59] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 13:37:59] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 13:40:46] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:40:46] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 13:40:46] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 13:40:46] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 13:40:46] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 13:40:46] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 13:47:57] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:47:58] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 13:47:58] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 13:47:58] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 13:47:58] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 13:47:58] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 13:48:14] "GET /blog/article/8 HTTP/1.1" 200 18735
+[10/Jul/2016 13:49:00] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:49:03] "GET /blog/index HTTP/1.1" 200 3766
+[10/Jul/2016 13:49:07] "GET /blog/article/5 HTTP/1.1" 200 17858
+[10/Jul/2016 13:49:55] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:49:55] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 13:52:42] "GET /blog/index HTTP/1.1" 200 3766
+[10/Jul/2016 13:52:42] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 13:52:45] "GET /blog/index HTTP/1.1" 200 3766
+[10/Jul/2016 13:52:47] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:52:48] "GET /blog/index HTTP/1.1" 200 3766
+[10/Jul/2016 13:52:50] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:52:52] "GET /blog/index HTTP/1.1" 200 3766
+[10/Jul/2016 13:53:17] "GET /blog/article/6 HTTP/1.1" 200 13378
+[10/Jul/2016 13:53:20] "GET /blog/article/6 HTTP/1.1" 200 13378
+[10/Jul/2016 13:54:36] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:54:37] "GET /blog/index HTTP/1.1" 200 3766
+[10/Jul/2016 13:55:19] "GET /blog/article/1 HTTP/1.1" 200 3398
+[10/Jul/2016 13:55:19] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 13:58:15] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:58:18] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 13:58:18] "GET /static/js/judge_browser.js HTTP/1.1" 200 1053
+[10/Jul/2016 13:58:18] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 13:58:19] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4142
+[10/Jul/2016 14:03:44] "GET /blog/index HTTP/1.1" 200 3766
+[10/Jul/2016 14:03:44] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 14:03:44] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 14:03:46] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 14:05:33] "GET /blog/article/9 HTTP/1.1" 200 30733
+[10/Jul/2016 14:05:36] "GET /blog/article/9 HTTP/1.1" 200 30733
+[10/Jul/2016 14:05:39] "GET /blog/article/9 HTTP/1.1" 200 30733
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/Jul/2016 14:22:49] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 14:22:55] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[10/Jul/2016 14:22:55] "GET /static/js/judge_browser.js HTTP/1.1" 200 1053
+[10/Jul/2016 14:22:56] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 29063
+[10/Jul/2016 14:25:48] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 14:58:35] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 14:58:35] "GET /static/css/reset.css HTTP/1.1" 200 7279
+[10/Jul/2016 14:58:35] "GET /static/js/judge_browser.js HTTP/1.1" 200 1053
+[10/Jul/2016 14:58:35] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 29063
+[10/Jul/2016 14:58:35] "GET /static/css/myblog.css HTTP/1.1" 200 3951
+[10/Jul/2016 14:58:36] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 71896
+[10/Jul/2016 14:58:39] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:00:17] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:00:17] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:00:17] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:00:17] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:00:18] "GET /static/css/myblog.css HTTP/1.1" 200 3945
+[10/Jul/2016 15:00:18] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:01:21] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:01:21] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:01:21] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:01:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:01:21] "GET /static/css/myblog.css HTTP/1.1" 200 3943
+[10/Jul/2016 15:01:21] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:01:32] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:01:32] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:01:32] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:01:32] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:01:32] "GET /static/css/myblog.css HTTP/1.1" 200 3943
+[10/Jul/2016 15:01:32] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:01:49] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:01:49] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:01:49] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:01:49] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:01:49] "GET /static/css/myblog.css HTTP/1.1" 200 3943
+[10/Jul/2016 15:01:49] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:02:54] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:02:54] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:02:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:02:54] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:02:54] "GET /static/css/myblog.css HTTP/1.1" 200 3943
+[10/Jul/2016 15:02:54] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:04:15] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:04:15] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:04:15] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:04:15] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:04:15] "GET /static/css/myblog.css HTTP/1.1" 200 3942
+[10/Jul/2016 15:04:15] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:04:22] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:04:22] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:04:22] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:04:22] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:04:22] "GET /static/css/myblog.css HTTP/1.1" 200 3942
+[10/Jul/2016 15:04:22] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:04:42] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:04:42] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:04:42] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:04:42] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:04:42] "GET /static/css/myblog.css HTTP/1.1" 200 3942
+[10/Jul/2016 15:04:42] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:04:54] "GET / HTTP/1.1" 200 40100
+[10/Jul/2016 15:04:54] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:04:54] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:04:54] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:04:54] "GET /static/css/myblog.css HTTP/1.1" 200 3944
+[10/Jul/2016 15:04:55] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:05:39] "GET / HTTP/1.1" 200 40106
+[10/Jul/2016 15:05:39] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:05:39] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:05:39] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:05:39] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 15:05:39] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:06:07] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:06:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:06:07] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:06:07] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:06:08] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 15:06:08] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:08:06] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:08:06] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:08:06] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:08:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:08:06] "GET /static/css/myblog.css HTTP/1.1" 200 3965
+[10/Jul/2016 15:08:06] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:08:23] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:08:23] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:08:23] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:08:23] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:08:23] "GET /static/css/myblog.css HTTP/1.1" 200 3965
+[10/Jul/2016 15:08:23] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:09:06] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:09:06] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:09:06] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:09:06] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:09:06] "GET /static/css/myblog.css HTTP/1.1" 200 4009
+[10/Jul/2016 15:09:06] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:09:59] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:09:59] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:09:59] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4142
+[10/Jul/2016 15:11:07] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:11:07] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:11:07] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:11:07] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:11:07] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4146
+[10/Jul/2016 15:11:08] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:11:22] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:11:22] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:11:22] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:11:22] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:11:22] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4144
+[10/Jul/2016 15:11:23] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:11:36] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:11:36] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:11:36] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:11:36] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:11:36] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4144
+[10/Jul/2016 15:11:36] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:12:31] "GET / HTTP/1.1" 200 40124
+[10/Jul/2016 15:12:31] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:12:31] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:12:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:12:31] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4165
+[10/Jul/2016 15:12:31] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:13:42] "GET / HTTP/1.1" 200 40123
+[10/Jul/2016 15:13:42] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:13:42] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:13:42] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:13:42] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 15:13:42] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[10/Jul/2016 15:19:19] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[10/Jul/2016 15:20:25] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 15:25:29] "GET / HTTP/1.1" 200 40123
+[10/Jul/2016 15:25:30] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:36] "GET / HTTP/1.1" 200 40160
+[10/Jul/2016 15:30:36] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:36] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:30:36] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:36] "GET /static/css/myblog.css HTTP/1.1" 200 4067
+[10/Jul/2016 15:30:36] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:30:36] "GET /static/images/tank.png HTTP/1.1" 200 75009
+[10/Jul/2016 15:30:37] "GET / HTTP/1.1" 200 40160
+[10/Jul/2016 15:30:37] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:37] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:37] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:30:37] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:37] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:30:38] "GET / HTTP/1.1" 200 40160
+[10/Jul/2016 15:30:38] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:38] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:38] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:30:38] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 15:30:39] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 15:30:41] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 15:31:39] "GET / HTTP/1.1" 200 40160
+[10/Jul/2016 15:31:39] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:31:39] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:31:39] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:31:39] "GET /static/css/myblog.css HTTP/1.1" 200 4065
+[10/Jul/2016 15:31:39] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 15:33:21] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 15:33:21] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 15:33:21] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 15:33:21] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:33:21] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 15:33:22] "GET /static/css/myblog.css HTTP/1.1" 200 4010
+[10/Jul/2016 15:45:52] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 15:45:52] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 15:45:52] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 15:45:52] "GET /static/images/tank.png HTTP/1.1" 200 75009
+[10/Jul/2016 16:02:34] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:02:34] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:02:34] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 16:02:34] "GET /static/images/tank.png HTTP/1.1" 200 60946
+[10/Jul/2016 16:02:58] "GET / HTTP/1.1" 200 40238
+- Broken pipe from ('198.143.180.166', 44125)
+[10/Jul/2016 16:04:50] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:04:50] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:04:50] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:04:50] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:04:50] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:04:50] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:04:51] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:04:51] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:05:08] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:05:08] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:05:08] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:08] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:05:08] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:08] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:05:08] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:05:08] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:05:18] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:05:18] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:05:18] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:05:18] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:18] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:18] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:05:18] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:05:18] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:05:28] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:05:28] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:28] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:05:28] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:28] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:05:29] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:05:29] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:05:29] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:05:40] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:05:40] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:40] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:40] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:05:40] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:05:40] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:05:40] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:05:40] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:05:58] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:05:58] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:58] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:05:58] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:05:58] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:06:01] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:06:01] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:06:01] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:06:10] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:06:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:06:10] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:06:10] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:06:10] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:06:10] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:06:10] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:06:10] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:06:18] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:06:18] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:06:18] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:06:18] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:06:18] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:06:18] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:06:18] "GET /static/images/tank.png HTTP/1.1" 200 60946
+[10/Jul/2016 16:06:18] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:06:18] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:07:19] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:07:19] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:07:19] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:07:19] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:07:19] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4195
+[10/Jul/2016 16:07:19] "GET /static/images/tank.png HTTP/1.1" 200 60946
+[10/Jul/2016 16:07:19] "GET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+[10/Jul/2016 16:07:20] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:07:56] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:07:56] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 16:07:56] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:07:58] "GET /blog/index HTTP/1.1" 200 3904
+[10/Jul/2016 16:08:03] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:08:03] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 16:08:31] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:08:31] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:08:31] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:08:31] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:08:31] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:08:31] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4195
+[10/Jul/2016 16:08:31] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:08:41] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:08:41] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:08:41] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:08:41] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:08:41] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4195
+[10/Jul/2016 16:08:42] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:08:42] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:11:19] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:11:19] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:11:19] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:11:19] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:11:19] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:11:19] "GET /static/css/myblog.css HTTP/1.1" 200 4041
+[10/Jul/2016 16:11:19] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:11:24] "GET / HTTP/1.1" 200 40238
+[10/Jul/2016 16:11:24] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:11:24] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:11:24] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:11:24] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:11:24] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4195
+[10/Jul/2016 16:11:24] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:12:11] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:12:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:12:11] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:12:11] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:12:11] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:12:11] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 16:12:12] "GET /static/icons/favicon.ico HTTP/1.1" 200 325
+[10/Jul/2016 16:12:41] code 400, message Bad HTTP/0.9 request type ('7\xfa\x92b\xc8\x05m\x9d\xf4%\xc5n!\\z\\\x87@5\xf7d\x17\xd6\x07\xf1')
+[10/Jul/2016 16:12:41] 
+Not Found: /http:/testp3.pospr.waw.pl/testproxy.php
+[10/Jul/2016 16:12:58] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 404 1723
+[10/Jul/2016 16:20:34] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:20:34] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:20:34] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:20:34] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:20:34] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:20:34] "GET /static/css/myblog.css HTTP/1.1" 304 0
+[10/Jul/2016 16:20:34] "GET /static/icons/favicon.ico HTTP/1.1" 200 438
+[10/Jul/2016 16:23:10] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:23:10] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:23:10] "GET /static/css/reset.css HTTP/1.1" 304 0
+[10/Jul/2016 16:23:10] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:23:10] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:23:11] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 16:23:11] "GET /static/icons/favicon.ico HTTP/1.1" 200 438
+[10/Jul/2016 16:23:36] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:23:36] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:23:36] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:23:36] "GET /static/images/tank.png HTTP/1.1" 200 60946
+[10/Jul/2016 16:23:36] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4195
+[10/Jul/2016 16:23:37] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:23:38] "GET /static/icons/favicon.ico HTTP/1.1" 200 438
+[10/Jul/2016 16:23:43] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:23:46] "GET / HTTP/1.1" 200 40245
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/Jul/2016 16:24:02] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:24:03] "GET /static/icons/favicon.ico HTTP/1.1" 304 0
+[10/Jul/2016 16:24:27] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:24:27] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 0
+[10/Jul/2016 16:24:27] "GET /static/js/judge_browser.js HTTP/1.1" 304 0
+[10/Jul/2016 16:24:27] "GET /static/images/tank.png HTTP/1.1" 200 60946
+[10/Jul/2016 16:24:27] "GET /static/css/myblog_mobile.css HTTP/1.1" 200 4195
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/Jul/2016 16:24:29] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:24:30] "GET /static/icons/favicon.ico HTTP/1.1" 304 0
+[10/Jul/2016 16:25:16] "GET / HTTP/1.1" 200 40245
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/Jul/2016 16:25:22] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:25:22] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 16:25:23] "GET /static/icons/favicon.ico HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/Jul/2016 16:26:08] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:26:08] "GET /static/images/tank.png HTTP/1.1" 304 0
+[10/Jul/2016 16:26:09] "GET /static/icons/favicon.ico HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/Jul/2016 16:27:05] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:27:06] "GET /static/css/myblog_mobile.css HTTP/1.1" 304 0
+[10/Jul/2016 16:27:07] "GET /static/icons/favicon.ico HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 99, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 164, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[10/Jul/2016 16:27:51] "GET / HTTP/1.1" 200 40245
+[10/Jul/2016 16:27:51] "GET /static/icons/favicon.ico HTTP/1.1" 304 0

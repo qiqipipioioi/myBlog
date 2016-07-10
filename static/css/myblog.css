@@ -6,8 +6,8 @@
 .main-wrapper .content
 {
     background: #fff;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 20%;
+    margin-left: 20%;
     margin-top: 0px;
     min-height: 1080px;
     overflow:hidden;
@@ -16,15 +16,21 @@
 
 .main-wrapper .nav
 {
-    width: 250px;
+    width: 20%;
     height: 9999px;
     background: #3c0000;
     text-align: center;
     color: #fff;
-    padding-top: 200px;
+    padding-top: 12%;
     position: fixed;
     right: 0px;
     top: 0px;
+}
+
+
+.logo img
+{
+    width: 66%;
 }
 
 .button-zone
@@ -55,22 +61,24 @@
 .seperate1
 {
     margin: 0 0;
+    font-size: 2.5em;
 }
 
 .seperate2
 {
     margin: 0 5px;
+    font-size: 2.5em;
 }
 
 h1
 {
-    font-size: 25px;
+    font-size: 2.5em;
     font-family: Tahoma;
 }
 
 h2
 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     color: #670202;
     font-family:"Arial Black", "幼圆";
@@ -90,7 +98,7 @@ h2 a:hover
 
 p
 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
 }
 
@@ -101,7 +109,7 @@ p > *
 
 .publish-time
 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
     color: #670202;
 }
@@ -183,6 +191,7 @@ a.more
     text-decoration: none;
     color: #670202;
     font-family:"Arial", "幼圆";
+    font-size: 24px;
 }
 
 a.more:hover
