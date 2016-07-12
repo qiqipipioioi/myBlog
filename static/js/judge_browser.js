@@ -13,10 +13,20 @@ var browserRedirect = function () {
   if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
     document.write('<link href="/static/css/myblog_mobile.css" rel="stylesheet" type="text/css" /> ');
   } else {
-    document.write('<link href="/static/css/myblog.css" rel="stylesheet" type="text/css" /> ')
+    document.write('<link href="/static/css/myblog.css" rel="stylesheet" type="text/css" /> ');
   }
 };
+
+var widerScreen = function () {
+    var wide = screen.width;
+    if (wide >= 1600) {
+        document.write('<style type="text/css">p{font-size: 20px;}</style>');
+    }
+};
+
+
 browserRedirect();
+widerScreen();
 
 
 

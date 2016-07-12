@@ -38,6 +38,8 @@ class FirstView(ListView):
         for article in rest_articles:
             mark = self.require_n_line(10, article.body)
             article.abstract = article.body[0:mark]
+            article.abstract = markdown2.markdown(article.abstract,
+                extras=['fenced-code-blocks', "cuddled-lists", "metadata", "tables", "spoiler"])
         kwargs['article_rest'] = rest_articles
         return super(FirstView, self).get_context_data(**kwargs)
 
@@ -59,7 +61,7 @@ class ArticleDetailView(DetailView):
     # 指定以上几个属性，已经能够返回一个DetailView视图了，为了让文章以markdown形式展现，我们重写get_object()方法。
     def get_object(self):
         obj = super(ArticleDetailView, self).get_object()
-        obj.body = markdown2.markdown(obj.body)
+        obj.body = markdown2.markdown(obj.body, extras=['fenced-code-blocks', "cuddled-lists", "metadata", "tables", "spoiler"])
         return obj
 
 
@@ -85,3 +87,4 @@ class CategoryView(ListView):
         kwargs['category_list'] = Category.objects.all().order_by('name')
         # 增加一个category_list,用于在页面显示所有分类，按照名字排序
         return super(CategoryView, self).get_context_data(**kwargs)
+

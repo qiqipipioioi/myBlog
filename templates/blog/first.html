@@ -1,29 +1,31 @@
 {% extends 'main.html' %}
 {% block content %}
-    {% load paginate_tags %}
-    {% paginate article_rest 3 %}
-    {% if current_page == 1%}
-        <div class="first-article">
-            <h2><a href="{% url 'blog:detail' article_first.pk %}">{{article_first.title}}</a></h2>
-            <div class="publish-time">{{article_first.created_time|date:"n月j日，Y"}}</div>
-            <p>{{article_first.body|safe}}</p>
-            <div class='hr'></div>
+    <div class="main-sec">
+        {% load paginate_tags %}
+        {% paginate article_rest 3 %}
+        {% if current_page == 1%}
+            <div class="first-article">
+                <h2 class="title"><a href="{% url 'blog:detail' article_first.pk %}">{{article_first.title}}</a></h2>
+                <div class="publish-time">{{article_first.created_time|date:"n月j日，Y"}}</div>
+                <p>{{article_first.body|safe}}</p>
+                <div class='hr'></div>
+            </div>
+        {% endif %}
+        <div class="rest-article">
+            {% for article in page_article_list %}
+                <li>
+                    <h2 class="title">
+                        <a href="{% url 'blog:detail' article.pk %}">{{ article.title }}</a>
+                    </h2>
+                    <div class="publish-time">{{article.created_time|date:"n月j日，Y"}}</div>
+                    <p>{{article.abstract|safe}}</p>
+                    <div class="read-more">
+                        <a class="more" href="{% url 'blog:detail' article.pk %}">Read More >></a>
+                    </div>
+                    <div class="hr"></div>
+                </li>
+           {% endfor%}   
         </div>
-    {% endif %}
-    <div class="rest-article">
-        {% for article in page_article_list %}
-            <li>
-                <h2>
-                    <a href="{% url 'blog:detail' article.pk %}">{{ article.title }}</a>
-                </h2>
-                <div class="publish-time">{{article.created_time|date:"n月j日，Y"}}</div>
-                <p>{{article.abstract}}</p>
-                <div class="read-more">
-                    <a class="more" href="{% url 'blog:detail' article.pk %}">Read More >></a>
-                </div>
-                <div class="hr"></div>
-            </li>
-       {% endfor%}   
     </div>
     {% include 'blog/pagination.html' %}
 {% endblock %}

@@ -1,8 +1,11 @@
 {% extends 'main.html' %}
 {% block content %}
     <div class="detail-article">
-        <h2>{{article.title}}</h2>
+        <h2 class="title">{{article.title}}</h2>
         <div class="publish-time">{{article.created_time|date:"n月j日,Y年"}}</div>
         <p>{{article.body|safe}}</p>
+        <div class="back">
+            <a class="back2list" href="/blog/index">&larr; Return Index</a>
+        </div>
     </div>
 {% endblock %}

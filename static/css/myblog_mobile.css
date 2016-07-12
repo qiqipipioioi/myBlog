@@ -81,25 +81,31 @@ i
 
 h1
 {
-    font-size: 60px;
+    font-size: 6em;
     font-family: Tahoma;
 }
 
-h2
+h1 a
 {
-    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+h2.title
+{
+    font-size: 5em;
     text-align: center;
     color: #670202;
     font-family:"Arial Black", "幼圆";
 }
 
-h2 a
+h2.title a
 {
     text-decoration: none;
     color: #670202;
 }
 
-h2 a:hover
+h2.title a:hover
 {
     text-decoration: none;
     color: #e43434;
@@ -107,7 +113,7 @@ h2 a:hover
 
 p
 {
-    font-size: 24px;
+    font-size: 2em;
     font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
 }
 
@@ -118,7 +124,7 @@ p > *
 
 .publish-time
 {
-    font-size: 24px;
+    font-size: 2em;
     font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
     color: #670202;
 }
@@ -141,7 +147,7 @@ li
 
 .main-sec
 {
-    padding-bottom: 150px;
+    padding-bottom: 250px;
 }
 
 .first-article
@@ -199,7 +205,7 @@ a.more
     text-decoration: none;
     color: #670202;
     font-family:"Arial", "幼圆";
-    font-size: 24px;
+    font-size: 2em;
 }
 
 a.more:hover
@@ -232,6 +238,9 @@ footer
     padding-right: 10%;
     padding-bottom: 20px;
     padding-top: 10px;
+    position: absolute;
+    bottom: 130px;
+    width: 80%;
     min-height: 50px;
     text-align: center;
 }    
@@ -246,7 +255,7 @@ a.previous-page
     float: left;
     text-decoration: none;
     color: #670202;
-    font-size: 45px;
+    font-size: 3em;
     font-family:"Arial Black", "幼圆";
     font-weight: bold;
 } 
@@ -268,7 +277,7 @@ a.next-page
     float:right;
     text-decoration: none;
     color: #670202;
-    font-size: 45px;
+    font-size: 3em;
     font-family:"Arial Black", "幼圆";
     font-weight: bold;
 } 
@@ -282,7 +291,7 @@ a.next-page:hover
 .icon-current
 {
     color: #670202;
-    font-size: 18px;
+    font-size: 3em;
     font-family:"Arial Black", "幼圆";
     font-weight: bold;
     letter-spacing: 3px;
@@ -304,6 +313,8 @@ a.next-page:hover
     text-align: left;
     padding-bottom: 30px;
     font-size: 60px;
+    color: #670202;
+    font-family:"Arial", "幼圆";
 }
 
 .article-index ul li
@@ -316,7 +327,7 @@ a.next-page:hover
 {
     font-size: 50px;
     color: #670202;
-    font-family:"Arial Black", "幼圆";
+    font-family:"Arial", "幼圆";
 }
 
 
@@ -328,6 +339,25 @@ a.next-page:hover
 }
 
 .article-index ul li h3 a:hover
+{
+    text-decoration: none;
+    color: #e43434;
+}
+
+.back
+{
+    margin: 80px 0;
+}
+
+a.back2list
+{
+    text-decoration: none;
+    color: #670202;
+    font-family:"Arial", "幼圆";
+    font-size: 2em;
+}
+
+a.back2list:hover
 {
     text-decoration: none;
     color: #e43434;

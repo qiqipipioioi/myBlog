@@ -3,6 +3,9 @@ from __future__ import unicode_literals
 
 from django.contrib import admin
 from django.db import models
+from django.conf import settings
+
+import os
 import sys
 default_encoding = 'utf-8'  
 if sys.getdefaultencoding() != default_encoding:  
@@ -45,5 +48,4 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
-admin.site.register(Article)
-admin.site.register(Category)
+

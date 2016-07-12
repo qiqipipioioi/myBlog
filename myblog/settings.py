@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'pagedown',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -126,10 +127,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = ''
+STATIC_ROOT = '/myBlog/'
 STATICFILES_DIRS = (
      # Put strings here, like "/home/html/static" or "C:/www/django/static".
      # Always use forward slashes, even on Windows.
      # Don't forget to use absolute paths, not relative paths.
      '/myBlog/static',
 )
+
+MEDIA_ROOT = '/myBlog/media/'
