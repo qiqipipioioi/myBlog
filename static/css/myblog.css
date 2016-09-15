@@ -148,12 +148,22 @@ li
     padding-right: 10%;
 }
 
+.first-article img
+{
+    width: 100%;
+}
+
 .detail-article
 {
     padding-top: 100px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 100px;
+}
+
+.detail-article img
+{
+    width: 100%;
 }
 
 

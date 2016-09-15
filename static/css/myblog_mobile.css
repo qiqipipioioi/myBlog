@@ -157,6 +157,11 @@ li
     padding-right: 10%;
 }
 
+.first-article img
+{
+    width: 100%;
+}
+
 
 .detail-article
 {
@@ -165,6 +170,12 @@ li
     padding-right: 10%;
     padding-bottom: 100px;
 }
+
+.detail-article img
+{
+    width: 100%;
+}
+
 
 .hr
 {
@@ -302,7 +313,7 @@ a.next-page:hover
 {
     width: 100%;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 300px;
     padding-left: 10%;
     padding-right: 10%;
     text-align: left;
